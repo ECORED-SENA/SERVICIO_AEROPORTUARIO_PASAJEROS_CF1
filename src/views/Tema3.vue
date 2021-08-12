@@ -117,14 +117,53 @@
       .col-lg-10
         figure.mb-4(data-aos="flip-down")
           img(src="@/assets/curso/t3-i2.jpg", alt="icono decorativo")
-        figcaption <b>Nota.</b> www.pixabay.com
+        figcaption <b>Nota.</b> <a href='https://pixabay.com/' target='_blank'>https://pixabay.com/</a>
     p.mb-5  Las cualidades más relevantes a tener en cuenta para trabajar en servicio al cliente son:
     .row
       .col-lg-4
         figure.mb-4(data-aos="flip-left")
           img(src="@/assets/curso/t3-i3.jpg", alt="Mujeres en oficia para atención al público")
       .col-lg-8
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Integral")
+            .col-md-12
+              p Debe llevar consigo la honestidad en la forma de actuar, el compromiso en los asuntos que se le encomienden, seriedad, respeto por los demás y ante todo el respeto y la tolerancia con las personas, no solo con los clientes sino también con su equipo de trabajo.
 
+          .row(titulo="Proactiva")
+            .col-md-12
+              p Tener iniciativa, proponer soluciones a posibles conflictos, ser receptivo ante posibles oportunidades de mejora.       
+
+          .row(titulo="Ganas de aprender")
+            .col-md-12
+              p Tener deseos por mejorar y crecer, no solo a nivel profesional sino también personal. Una persona inquieta que tiene metas ambiciosas que no se conforme con lo que tiene, sino que quiere ir más allá.  
+
+          .row(titulo="Autocontrol")
+            .col-md-12
+              p La autorregulación indica la capacidad de mantener el control de las emociones sin perder los estribos en una situación difícil. Da cuenta de un carácter bien formado que prioriza lo importante. El autocontrol es una característica valiosa ante un cliente impertinente ya que podrá manejar la situación con la mayor cordialidad, profesionalismo y respeto.  
+
+          .row(titulo="Actitud")
+            .col-md-12
+              p Se relaciona con aquellas expresiones y reacciones que se manifiestan a la hora de atender o ayudar al otro; una actitud positiva y de servicio permite potenciar relaciones efectivas y duraderas con los clientes. La intención de querer servir de forma desinteresada, está mayormente motivada por la satisfacción de ayudar a los clientes y con esto el beneficio de la compañía.  
+
+          .row(titulo="Empatía")
+            .col-md-12
+              p Es la capacidad para establecer relaciones de valor, escuchando activamente y comprendiendo el punto de vista de la otra persona, “conectando’ con tus necesidades y preferencias.  
+
+          .row(titulo="Cooperación")
+            .col-md-12
+              p Es importante el trabajar con los demás miembros del equipo para cumplir objetivos en común. Es una cualidad valiosa, ya que ofrecer una atención al cliente de alta categoría no solo depende de una sola persona sino de todo el equipo y las herramientas que la compañía les facilite.  
+
+          .row(titulo="Entusiasta")
+            .col-md-12
+              p Es la capacidad de ver el lado bueno a una situación compleja, es estar orientado hacia la solución, no hacia el problema. El entusiasmo como enfoque positivo promueve la negociación con un cliente o mediar una situación a fin de conservar la relación con el cliente.  
+
+          .row(titulo="Observador")
+            .col-md-12
+              p Es la habilidad de fijarse en los detalles, que no todas personas tienen la facilidad de evidenciar; lo que comúnmente se denomina “leer entre líneas”, es decir, entender lo que el cliente en realidad quiere o necesita, esta cualidad es especialmente importante, pues permite interpretar el lenguaje no verbal del cliente. 
+
+          .row(titulo="Analítico")
+            .col-md-12
+              p Esta capacidad brinda la posibilidad de extraer lo importante de lo no relevante, para poder extraer ideas, en función de ofrecer alternativas a una posible situación de discrepancia con el cliente. Aquí es muy importante la habilidad de mantener una escucha activa, hacer preguntas asertivas y entender la necesidad.               
 
 
 
