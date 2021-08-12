@@ -243,17 +243,390 @@
       .col-lg-10
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Sierra Nevada de Santa Marta")
-            .col-md-12
-              p Debe llevar consigo la honestidad en la forma de actuar, el compromiso en los asuntos que se le encomienden, seriedad, respeto por los demás y ante todo el respeto y la tolerancia con las personas, no solo con los clientes sino también con su equipo de trabajo.
-
+            .col-md-4
+              figure(data-aos="flip-left")
+                img(src="@/assets/curso/t1-i5.png", alt="Mapa de region Caribe de colombia")
+            .col-md-8
+              p.mb-3 Es la formación montañosa litoral más alta del mundo, elevada 42 kilómetros del mar caribe, alcanza una altura de 5.775 metros, sus picos más altos: el Simón Bolívar y el Cristóbal Colón. Habitada por diferentes etnias indígenas que viven en zonas puntuales de la Sierra Nevada, entre ellos encontramos:
+              ul.lista-ul
+                li 
+                  i.fas.fa-check
+                  | Los Kogui
+                li 
+                  i.fas.fa-check
+                  | Los Wiwas
+                li 
+                  i.fas.fa-check
+                  | Los Arhuacos
+                li 
+                  i.fas.fa-check
+                  | Los Kankuamos
+              p La Sierra Nevada por su riqueza es el lugar perfecto para diferentes actividades de interés, entre ellas, excursiones de fauna y flora, playas, piscinas naturales, cascadas. Una visita obligada por su alto valor cultural es el museo arqueológico de Chairama.
           .row(titulo="Cabo de la Vela y Punta Gallinas")
-            .col-md-12
-              p Tener iniciativa, proponer soluciones a posibles conflictos, ser receptivo ante posibles oportunidades de mejora.       
+            .col-md-4
+              figure(data-aos="flip-left")
+                img(src="@/assets/curso/t1-i6.png", alt="Mapa de region Caribe de colombia")
+            .col-md-8
+              p.mb-3 Conformada por una serie de accidentes que conforman una bahía de la península que va desde punta Gallinas hasta el Cabo de la Vela. Entre ambos puntos están Puerto Bolívar, bahía Portete y bahía Honda. Cerca de Punta Gallinas se encuentra la etnia Wayúu que es una de las pocas culturas suramericanas que conservan intactas sus tradiciones ancestrales. Es un impresionante escenario natural de mesetas, dunas y acantilados rocosos, que emergen del mar, abrazando a la bahía Hondita. Tiene una inmensa duna que alcanza 60 metros de altura que se alza como una muralla justo en la orilla del mar.
+              p Para poder llegar a estos atractivos turísticos de gran imponencia se debe llegar a Riohacha y de allí tomar el transporte adicional, se puede ir con un tour ya pago que se ofrece en el mismo sitio; uno de los principales alojamientos se encuentran rancherías que son las villas construidas por los indígenas Wayúu.
+          
           .row(titulo="Cartagena de Indias")
-            .col-md-12
-              p Tener iniciativa, proponer soluciones a posibles conflictos, ser receptivo ante posibles oportunidades de mejora.       
+            .col-md-4
+              figure(data-aos="flip-left")
+                img(src="@/assets/curso/t1-i7.png", alt="Mapa de region Caribe de colombia")
+            .col-md-8
+              p.mb-4 Es una de las ciudades más turísticas de Colombia y de América Latina, por su gran variedad de atractivos turísticos, historia, cultura, una arquitectura colonial imponente además de ser considerada patrimonio de la humanidad por la UNESCO. Algunos de los lugares por visitar en Cartagena de Indias son:
+              ul.lista-ul.mb-4
+                li 
+                  i.fas.fa-check
+                  | El Castillo de San Felipe
+                li 
+                  i.fas.fa-check
+                  | El Palacio de la Inquisición
+                li 
+                  i.fas.fa-check
+                  | La Torre del Reloj
+                li 
+                  i.fas.fa-check
+                  | La Ciudad Amurallada y sus calles empedradas llenas de cultura de la región caribe y muchos otros atractivos que hacen de esta ciudad el lugar ideal para descansar y al mismo tiempo aprender de su historia.
+              
+                p.mb-3 Si de eventos y festivales se trata aquí encontraremos para todos los gustos e intereses, entre los más destacados:
+              ul.lista-ul
+                li 
+                  i.fas.fa-check
+                  | Festival internacional de música - Hay festival 
+                li 
+                  i.fas.fa-check
+                  | Festival internacional de cine y televisión 
+                li 
+                  i.fas.fa-check
+                  | Cartagena Boat show – Festival de artes escénicas
+                li 
+                  i.fas.fa-check
+                  | Festival de bandas
+                li 
+                  i.fas.fa-check
+                  | Fiestas de la independencia y concurso nacional de belleza
 
+
+        p.mb-5  A continuación, se presentan algunos de los sitios turísticos más representativos de la región Caribe:
+          
+    SlyderC.mb-5(:datos="datosSlyder")
+
+    h2.titulo-tercero Región Andina
+    .row.mb-5
+      .col-lg-8
+        p.mb-3  La Región Andina se encuentra ubicada en el centro del país razón por la cual tiene variedad de pisos térmicos, debido a que esta región es atravesada por las tres cordilleras de los Andes y debido a esto posee una variada diversidad en fauna y flora, climas, cuerpos de agua (ríos Cauca y Magdalena) y los diferentes tipos de relieves (valles, cañones, mesetas)
+        p.mb-4 Esta región posee algunas de las principales ciudades del país y cada una con una gran variedad de lugares para visitar, ferias y fiestas, costumbres, eventos, cultura. También es la zona del país donde se encuentra la mayoría de los parques nacionales naturales, por su riqueza geográfica. Es importante resaltar que la conforman ciudades como:
+        .row.justify-content-center
+          .col-lg-8
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Departamento
+                    th Capital
+                tbody
+                  tr
+                    td Antioquia
+                    td Medellín
+                  tr
+                    td Norte de Santander
+                    td Cúcuta
+                  tr
+                    td Santander
+                    td Bucaramanga
+
+                  tr
+                    td Caldas
+                    td Manizales
+
+                  tr
+                    td Risaralda
+                    td Pereira
+
+                  tr
+                    td Boyacá
+                    td Tunja
+                    
+                  tr
+                    td Cundinamarca
+                    td Bogotá
+                  tr
+                    td Quindío
+                    td Armenia
+                  tr
+                    td Tolima
+                    td Ibagué
+                  tr
+                    td Huila
+                    td Neiva
+
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-m3.svg", alt="Mapa de region Andina de colombia")
+
+
+    h3.titulo-tercero Bogotá
+    p.mb-3  <b>Es la capital de Colombia, ubicada en el centro del país y es la tercera capital más alta del mundo después de Quito y La Paz</b> ya que se encuentra a 2.625 metros sobre el nivel del mar, Bogotá es la sede de los principales entes gubernamentales del país. Bogotá es el principal destino turístico en Colombia, ya que cuenta con diversas actividades, eventos culturales, eventos de nivel internacional, lugares de entretenimiento nocturno, parques, museos, centro histórico. Se ubica en la zona denominada “Sabana de Bogotá” donde se encuentran otros municipios de Cundinamarca que igualmente son muy visitados por los turistas por su variedad de atractivos.
+    p.mb-5  <b>El turismo en la capital es muy diverso</b>, se encuentran lugares como:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p2.png", alt="foto de bogota")
+      .col-lg-4
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Monserrate
+          li 
+            i.fas.fa-check
+            | La Candelaria
+          li 
+            i.fas.fa-check
+            | Centro Internacional
+          li 
+            i.fas.fa-check
+            | Museo del Oro
+          li 
+            i.fas.fa-check
+            | Museo Botero
+          li 
+            i.fas.fa-check
+            | Museo Nacional de Colombia
+          li 
+            i.fas.fa-check
+            | La Candelaria
+          li 
+            i.fas.fa-check
+            | Maloka
+          li 
+            i.fas.fa-check
+            | Parque Metropolitano Simón Bolívar
+          li 
+            i.fas.fa-check
+            | Parque de la 93
+
+      .col-lg-8
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure(data-aos="flip-right")
+                img.nW(src="@/assets/curso/t1-ic6.svg", alt="imagen decorativa")
+            .col-lg-8
+              .bloque-texto-a__texto.p-4(data-aos="flip-up")
+                p Si de turismo ecológico se trata, Bogotá también cuenta con atractivos de aventura, como:
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    | Quebrada La Vieja
+                  li 
+                    i.fas.fa-check
+                    | Quebrada Las Delicias
+    p.mb-5  También en las inmediaciones de Bogotá, se encuentran el Páramo de Sumapaz y reservas forestales como Guatavita, Neusa y Chingaza. Cuenta con el aeropuerto Internacional El Dorado, el primero en América Latina en el transporte de carga y el tercero en la región con el mayor número en el tráfico de pasajeros, es uno de los HUB (centro de conexión) más importante de Sudamérica ya que tiene una posición estratégica en la zona media del continente, es el HUB de operación para aerolíneas como:
+
+    .row.justify-content-center.mb-5
+      .col-lg-3
+        figure(data-aos="flip-right")
+          img.nW(src="@/assets/curso/t1-ip1.svg", alt="imagen decorativa")
+      .col-lg-4
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Avianca
+          li 
+            i.fas.fa-check
+            | Avianca cargo
+          li 
+            i.fas.fa-check
+            | Latam Colombia
+          li 
+            i.fas.fa-check
+            | Viva Air
+          li 
+            i.fas.fa-check
+            | Wingo
+          li 
+            i.fas.fa-check
+            | Líneas Aéreas Suramericanas (LAS)
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de Bogotá:
     
+    SlyderC.mb-5(:datos="datosSlyder3")
+
+    h3.titulo-tercero Medellín
+    p.mb-3  <b>La ciudad de la eterna primavera es una ciudad moderna</b>, rica en actividades de todo tipo para los turistas, cuenta con diversidad cultural, con 22 museos, 6 parques bibliotecas y variadas zonas de oferta gastronómica que la hace muy llamativa para visitar. Cuenta con 2 aeropuertos, el primero es el Olaya Herrera ubicado dentro de la ciudad y segundo el aeropuerto internacional José María Córdova en el municipio de Rionegro a 50 minutos de Medellín.
+    p.mb-5  <b>El turismo de salud es su principal eje</b>, esto según cifras del clúster de servicios de medicina y odontología de Medellín, que informa que esta modalidad de turismo viene en crecimiento en los últimos años, de pacientes extranjeros que optan por realizarse algún tratamiento médico u odontológico. Pero no solo el turismo de salud es atractivo en esta ciudad, hay variedad de eventos, festivales, y lugares para visitar, entre ellos:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p3.png", alt="foto de bogota")
+      .col-lg-4
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Cerro Nutibara
+          li 
+            i.fas.fa-check
+            | Parque Explora
+          li 
+            i.fas.fa-check
+            | Plaza de Botero
+          li 
+            i.fas.fa-check
+            | Parque de los Pies Descalzos
+          li 
+            i.fas.fa-check
+            | Centro Internacional de Convenciones (el más moderno de América Latina)
+          li 
+            i.fas.fa-check
+            | Museo Interactivo EPM
+          li 
+            i.fas.fa-check
+            | Comuna 13
+          li 
+            i.fas.fa-check
+            | Jardín Botánico
+      .clearfix.mb-4
+      .col-lg-8
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure(data-aos="flip-right")
+                img.nW(src="@/assets/curso/t1-ic7.svg", alt="imagen decorativa")
+            .col-lg-8
+              .bloque-texto-a__texto.p-4(data-aos="flip-up")
+                p En municipios aledaños a la capital de Antioquia, también se encuentra oferta turística importante:
+                ul.lista-ul
+                  li 
+                    i.fas.fa-check
+                    | Guatapé y el Peñol
+                  li 
+                    i.fas.fa-check
+                    | Parque Arví
+                  li 
+                    i.fas.fa-check
+                    | Santa Helena
+
+    SlyderC.mb-5(:datos="datosSlyder4")      
+
+    h3.titulo-tercero Eje Cafetero (Caldas, Risaralda, Quindío, Tolima)
+    p.mb-3 Comprendida entre las ciudades de Manizales, Pereira, Armenia e Ibagué es la zona de importancia cultural por su paisaje cafetero, razón por la cual fue declarada por la UNESCO Patrimonio de Humanidad en el año 2011, desde ese momento este paisaje recibe el nombre de “Paisaje Cultural Cafetero”, por sus condiciones climáticas desde los 8 grados hasta los 29 grados hacen que esta región posea condiciones favorables para la producción de café con los más altos estándares de calidad y que fue catalogado como el mejor café del mundo.
+    p.mb-5  Uno de los principales atractivos turísticos de esta región, es la tendencia de hoteles propios de la cultura, adaptando casas, haciendas cafeteras como lugares de alojamiento para los turistas, lo que hace que los visitantes vivan de cerca la experiencia con la gente y sus costumbres. Dentro de lo atractivos turísticos más importantes de esta zona del país, están:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p4.png", alt="Detalle de farolas de un jeep")
+      .col-lg-4
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Parque Nacional del Café
+          li 
+            i.fas.fa-check
+            | Parque Nacional de la Cultura Agropecuaria
+          li 
+            i.fas.fa-check
+            | Parque de los Arrieros
+          li 
+            i.fas.fa-check
+            | Bioparque Ukumarí
+          li 
+            i.fas.fa-check
+            | Parque de la Vida
+          li 
+            i.fas.fa-check
+            | Museo Arqueológico Quimbaya
+          li 
+            i.fas.fa-check
+            | Catedral Basílica Nuestra Señora del Rosario de Manizales
+    
+    p.mb-5  Para los amantes de la naturaleza, las caminatas, el contacto con la biodiversidad de esta área, también se encuentra lugares diseñados para el ecoturismo, tales como:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p5.png", alt="Detalle de farolas de un jeep")
+      .col-lg-4
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Parque Nacional Natural los Nevados
+          li 
+            i.fas.fa-check
+            | Recorrido a la Cultura Cafetera
+          li 
+            i.fas.fa-check
+            | Jardín Botánico Universidad Tecnológica de Pereira
+          li 
+            i.fas.fa-check
+            | Jardín Botánico Universidad de Caldas
+          li 
+            i.fas.fa-check
+            | Jardín Botánico y Mariposario del Quindío
+          li 
+            i.fas.fa-check
+            | Jardín Botánico Universidad del Tolima
+          li 
+            i.fas.fa-check
+            | Termales de Santa Rosa de Cabal
+          li 
+            i.fas.fa-check
+            | Termales de San Vicente
+          li 
+            i.fas.fa-check
+            | Balsaje
+          li 
+            i.fas.fa-check
+            | Valle del Cocora
+          li 
+            i.fas.fa-check
+            | Ecoparque Peñas Blancas
+
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del Eje Cafetero:
+
+    SlyderC.mb-5(:datos="datosSlyder5") 
+
+    h3.titulo-tercero Región Pacífica
+    .row
+      .col-lg-8
+        p.mb-3  Es la zona de una extraordinaria riqueza ecológica, hidrológica, minera y forestal, es la zona de mayor biodiversidad y pluviosidad en todo mundo, abarca la mayor parte del Departamento del Chocó, hogar de afrocolombianos a quienes los españoles en la conquista les llamaron “chocoes”, en esta parte del país el litoral coloca a Colombia frente océano más grande del mundo y con ello a conectar con el resto del mundo lo que promueve el desarrollo de esta región. Las subregiones que la componen son:
+        .row.justify-content-center
+          .col-lg-10
+            ul.lista-ul.mb-5
+              li 
+                i.fas.fa-check
+                | Serranía del Baudó
+              li 
+                i.fas.fa-check
+                | Serranía del Darién
+              li 
+                i.fas.fa-check
+                | Valle del río Atrato
+              li 
+                i.fas.fa-check
+                | Valle del río San Juan
+              li 
+                i.fas.fa-check
+                | Llanura costera del Pacífico
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Chocó
+                    th Quibdó
+                tbody
+                  tr
+                    td Valle del Cauca
+                    td Cali
+                  tr
+                    td Cauca
+                    td Popayán
+                  tr
+                    td Nariño
+                    td Pasto
+
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-m4.svg", alt="mapa de la región pacífica")
 
 
 
@@ -276,19 +649,6 @@
 
 
 
-
-
-
-
-
-
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
     Muestras
   
 </template>
@@ -301,7 +661,223 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'San Andrés Isla',
+        texto:
+          'Es la más grande del Archipiélago de San Andrés, Providencia y Santa Catalina, su baile típico es el calypso con un toque africano que solo refleja la alegría de su gente.',
+        imagen: require('@/assets/curso/s2-i1.jpg'),
+      },
+      {
+        titulo: 'Aldea de los indios Kogui en las montañas de la Sierra Nevada',
+        texto:
+          'El pueblo Kogui ha ocupado esta región durante siglos, la mayoría de los ellos siguen viviendo tradicionalmente en cabañas de barro con techos de paja.',
+        imagen: require('@/assets/curso/s1-i2.jpg'),
+      },
+      {
+        titulo: 'La Guajira',
+        texto:
+          'Posee pisos térmicos entre los 22 y 40 grados de la zona intertropical, su ecosistema terrestre va desde el desierto hasta la selva seca y húmeda de montaña. ',
+        imagen: require('@/assets/curso/s1-i3.jpg'),
+      },
+      {
+        titulo: 'Cabo de la Vela, La Guajira',
+        texto:
+          'Un hermoso paraje de desiertos, rancherías y fuertes vientos, su bahía goza de un mar hermoso y tranquilo.',
+        imagen: require('@/assets/curso/s1-i4.jpg'),
+      },
+      {
+        titulo: 'Punta Gallinas, La Guajira',
+        texto:
+          'Es uno de los destinos más impresionantes de toda Colombia, un lugar que enamora con sus extraordinarios paisajes y su gran riqueza cultural.',
+        imagen: require('@/assets/curso/s1-i5.jpg'),
+      },
+      {
+        titulo: 'Cartagena de Indias',
+        texto:
+          'Es una de las ciudades más turísticas de Colombia y de América Latina, por su historia, cultura, una arquitectura colonial imponente.',
+        imagen: require('@/assets/curso/s1-i6.jpg'),
+      },
+      {
+        titulo: 'La Ciudad Amurallada, Cartagena',
+        texto:
+          'Declarada por la UNESCO como patrimonio nacional de Colombia en 1959, y luego en 1984 se incluyó en la lista como patrimonio mundial como “puerto, fortaleza y conjunto monumental de Cartagena de Indias”.',
+        imagen: require('@/assets/curso/s1-i7.jpg'),
+      },
+      {
+        titulo: 'Torre del reloj, Cartagena',
+        texto:
+          'Construida como puerta principal de acceso a la ciudad amurallada, la torre es un emblemático monumento de 30 metros de altura. ',
+        imagen: require('@/assets/curso/s1-i8.jpg'),
+      },
+      {
+        titulo: 'Carnaval de Barranquilla',
+        texto:
+          'Es un evento masivo de personas en la costa caribe colombiana. Patrimonio cultural de la nación en 2001, y obra maestra del patrimonio oral e intangible de la humanidad por la UNESCO en 2003.',
+        imagen: require('@/assets/curso/s1-i9.jpg'),
+      },
+      {
+        titulo: 'Taganga, Santa Marta',
+        texto:
+          'Reconocida por sus playas, su centro histórico y por la facilidad para el ecoturismo, es llamada también “La Perla de América” desde el siglo XVIII.',
+        imagen: require('@/assets/curso/s1-i10.jpg'),
+      },
+    ],
+    datosSlyder3: [
+      {
+        titulo: 'Cerro de Monserrate',
+        texto:
+          'Una montaña que domina el centro de ciudad de Bogotá, capital de Colombia; a 3.152 metros sobre el nivel del mar se encuentra la basílica del Señor de Monserrate.',
+        imagen: require('@/assets/curso/s3-i1.jpg'),
+      },
+      {
+        titulo: 'La Candelaria',
+        texto: '',
+        imagen: require('@/assets/curso/s3-i2.jpg'),
+      },
+      {
+        titulo: 'Usaquén',
+        texto:
+          'Localidad ubicada en el norte de Bogotá, su ambiente festivo y gastronomía atrae a cientos de turistas.',
+        imagen: require('@/assets/curso/s3-i3.jpg'),
+      },
+      {
+        titulo: 'Museo del Oro',
+        texto:
+          'Artefacto de oro precolombino expuesto en el Museo del Oro, ubicado en el centro histórico de Bogotá, cuenta con más de 30.000 piezas hechas de oro.',
+        imagen: require('@/assets/curso/s3-i4.jpg'),
+      },
+      {
+        titulo: 'Museo Nacional de Colombia',
+        texto:
+          'Este museo representa la historia y herencia nacional, cuenta con 17 cuartos en donde se puede explorar los diversos períodos de historia colombiana.',
+        imagen: require('@/assets/curso/s3-i5.jpg'),
+      },
+      {
+        titulo: 'Maloka',
+        texto:
+          'Museo de ciencia, innovación y tecnología, donde se encuentra una amplia variedad de salas interactivas. Fue inaugurado el 7 de julio de 2019.',
+        imagen: require('@/assets/curso/s3-i6.jpg'),
+      },
+      {
+        titulo: 'Parque Metropolitano Simón Bolívar',
+        texto:
+          'Es el parque más grande de Bogotá, ubicado en el corazón de la ciudad, caracterizado por amplios espacios verdes y gran cantidad de árboles.',
+        imagen: require('@/assets/curso/s3-i7.jpg'),
+      },
+      {
+        titulo: 'Parque de la 93',
+        texto:
+          'Este  sector es cosiderado un  destino festivo y gastronómico, posee una arquitectura moderna y parques verdes.',
+        imagen: require('@/assets/curso/s3-i8.jpg'),
+      },
+      {
+        titulo: 'Catedral Primada de Colombia',
+        texto:
+          'Construcción de estilo Neoclásico en plena plaza de Bolívar en el centro de Bogotá. En 1975 fue declarada Monumento Nacional por su valor histórico y arquitectónico.',
+        imagen: require('@/assets/curso/s3-i9.jpg'),
+      },
+      {
+        titulo: 'Plaza de Toros de Santamaría',
+        texto:
+          'Construida en 1931, fue declarada como monumento nacional de Colombia en 1984, cuenta con una capacidad de más de 14 mil espectadores.',
+        imagen: require('@/assets/curso/s3-i10.jpg'),
+      },
+    ],
+    datosSlyder4: [
+      {
+        titulo: 'Medellín',
+        texto:
+          'Llamada también la ciudad de la eterna primavera, en la época de la llegada de los españoles se denominó San Lorenzo de Aburrá.',
+        imagen: require('@/assets/curso/s4-i1.jpg'),
+      },
+      {
+        titulo: 'Cerro Nutibara',
+        texto:
+          'Pequeña formación montañosa ubicada en la zona urbana, donde se puede encontrar también un pequeño pueblo turístico del estilo colonial.',
+        imagen: require('@/assets/curso/s4-i2.jpg'),
+      },
+      {
+        titulo: 'Parque explora',
+        texto:
+          'Es un museo interactivo para la apropiación y difusión de la ciencia y la tecnología.',
+        imagen: require('@/assets/curso/s4-i3.jpg'),
+      },
+      {
+        titulo: 'Plaza de Botero',
+        texto:
+          'Uno de los lugares más icónicos de Medellín en el que se exhiben 23 esculturas donadas por el artista colombiano Fernando Botero.',
+        imagen: require('@/assets/curso/s4-i4.jpg'),
+      },
+      {
+        titulo: 'Centro Internacional de Convenciones',
+        texto:
+          'Llamado también Plaza mayor de Medellín, es el escenario ideal para la realización de eventos y encuentros empresariales y académicos.',
+        imagen: require('@/assets/curso/s4-i5.jpg'),
+      },
+      {
+        titulo: 'Comuna 13',
+        texto:
+          'Una de las 16 comunas de la ciudad, situadas al oeste de la zona central occidental de la ciudad.',
+        imagen: require('@/assets/curso/s4-i6.jpg'),
+      },
+      {
+        titulo: 'Jardín botánico',
+        texto:
+          'Ubicado en ciudad de Medellín, cuenta con unas 13.2 hectáreas de extensión. En la imagen se observa la entrada del jardín botánico.',
+        imagen: require('@/assets/curso/s4-i7.jpg'),
+      },
+      {
+        titulo: 'Guatapé',
+        texto:
+          'Localizado en la subregión oriente del Departamento de Antioquia, con calles coloridas, casas adornadas y un ambiente festivo.',
+        imagen: require('@/assets/curso/s4-i8.jpg'),
+      },
+      {
+        titulo: 'Parque Arví',
+        texto:
+          'El Parque Arví cuenta con 16.000 hectáreas, para disfrutar de la belleza paisajística del territorio desde los diferentes miradores naturales.',
+        imagen: require('@/assets/curso/s4-i9.jpg'),
+      },
+    ],
+    datosSlyder5: [
+      {
+        titulo: 'Manizales',
+        texto:
+          'Se caracteriza por la gran variedad de eventos a lo largo del año entre festivales, teatro, danza, artes plásticas, la más importantes de ellas la feria de Manizales. ',
+        imagen: require('@/assets/curso/s5-i1.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional del Café',
+        texto:
+          'Ubicado en el Departamento de Quindío, con más de 40 atracciones, senderos ecológicos, y shows en vivo que evocan la cultura cafetera.',
+        imagen: require('@/assets/curso/s5-i2.jpg'),
+      },
+      {
+        titulo: 'Catedral Basílica Nuestra Señora del Rosario de Manizales',
+        texto:
+          'Ubicada frente a la Plaza de Bolívar, el escultor Italiano Alideo Fontanini esculpió la gran parte de las imágenes que exhiben en la parte exterior del templo.',
+        imagen: require('@/assets/curso/s5-i3.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional Natural Los Nevados',
+        texto:
+          'Situado en la cordillera central de los Andes colombianos; es el corazón de la región cafetera y la fuente de agua para cientos de habitantes de la región.',
+        imagen: require('@/assets/curso/s5-i4.jpg'),
+      },
+      {
+        titulo: 'Termales de Santa Rosa de Cabal',
+        texto:
+          'Ubicado en el Departamento de Risaralda, las aguas termales brotan del interior de la tierra a más de 60 grados.',
+        imagen: require('@/assets/curso/s5-i5.jpg'),
+      },
+      {
+        titulo: 'Valle del Cocora',
+        texto:
+          'Situado en la cordillera de los Andes, cuenta con el árbol nacional del país, La Palma de Cera del Quindío, con gran diversidad de flora y fauna.',
+        imagen: require('@/assets/curso/s5-i6.jpg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
