@@ -134,10 +134,148 @@
     .row
       .col-lg-7
         p.mb-3 Es reconocida como una ciencia compleja vista desde la óptica humana y sociocultural en un territorio; sin embargo, y para el caso específico del mundo de los viajes, no se profundizará en su conceptualización, por el contrario, un profesional de aerolínea o de aeropuerto debe ser práctico a la hora de la prestación del servicio, entendiendo que no basta con conocer el entorno geográfico, ya que también hay que ubicar al viajero brindando indicaciones precisas. Como principal actividad del programa de formación, el aprendiz debe reconocer los componentes de referencia de la geografía de Colombia.
-        p
+        p En el mundo del turismo es importante manejar una comunicación clara y efectiva en el que todos hablemos el mismo idioma, por esta razón la Organización de Aviación Civil Internacional (OACI) adoptó de las fuerzas militares esta herramienta efectiva de comunicación llamada <b>alfabeto aeronáutico o alfabeto fonético</b>, que al día de hoy es utilizado a nivel mundial por aerolíneas comerciales, militares y radioaficionados.
       .col-lg-5
         figure(data-aos="fade-up")
           img(src="@/assets/curso/t1-i3.jpg", alt="Manos señalando un punto en el mapa mundial")
+    .row.mb-5
+      .col-lg-5
+        a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <b>Enlace web.</b> En el siguiente enlace encontrará el alfabeto aeronáutico de la página de la Aeronáutica Civil de Colombia.
+    
+    p.mb-5  De igual forma, también la Asociación Internacional de Transporte Aéreo (IATA), implementó una serie de códigos que hacen referencia a:
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-3
+        figure(data-aos="flip-left")
+          img(src="@/assets/curso/t1-i4.svg", alt="Manos señalando un punto en el mapa mundial")
+      .col-lg-5
+        ul.lista-ul
+          li 
+            i.fas.fa-check
+            | Países
+          li 
+            i.fas.fa-check
+            | Ciudades
+          li 
+            i.fas.fa-check
+            | Aeropuertos
+          li 
+            i.fas.fa-check
+            | Estados
+          li 
+            i.fas.fa-check
+            | Monedas
+          li 
+            i.fas.fa-check
+            | Aerolíneas
+          li 
+            i.fas.fa-check
+            | Tipo de aeronaves
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.mb-5
+        a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <b>Enlace web.</b> Aeronáutica Civil de Colombia con los principales códigos de ciudades y aeropuertos a nivel nacional para Colombia.  
+      .col-lg-10
+        p Es importante resaltar que en el país <b>los códigos de ciudades en la mayoría de los casos es el mismo de aeropuerto</b>, varía cuando la ciudad cuenta con más de un terminal aéreo.
+
+
+    #t_1_3.titulo-segundo
+      h2 1.3  Geografía turística    
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    h3.titulo-tercero Región Caribe
+    .row
+      .col-lg-8
+        p.mb-3  La Región Caribe se encuentra en la zona norte del país, una de sus principales características es su clima cálido y sus grandiosas playas. La mayoría de su extensión es plana, sin embargo, encontramos la formación montañosa litoral más alta del mundo llamada Sierra Nevada de Santa Marta. Debido a su variedad de climas, es considerada la región con mayor diversidad de flora de Colombia.
+        p.mb-4 Es importante resaltar que está compuesta por ciudades como:
+        .row.justify-content-center
+          .col-lg-8
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Departamento
+                    th Capital
+                tbody
+                  tr
+                    td Atlántico
+                    td Barranquilla
+                  tr
+                    td Bolívar
+                    td Cartagena de Indias
+                  tr
+                    td Córdoba
+                    td Montería
+
+                  tr
+                    td Magdalena
+                    td Santa Marta
+
+                  tr
+                    td Cesar
+                    td Valledupar
+
+                  tr
+                    td La Guajira
+                    td Riohacha
+                    
+                  tr
+                    td Sucre
+                    td Sincelejo
+                
+
+
+      .col-lg-4
+        figure(data-aos="flip-right")
+          img(src="@/assets/curso/t1-m1.svg", alt="Mapa de region Caribe de colombia")
+
+    h4.titulo-cuarto Principales destinos turísticos en la región Caribe
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Sierra Nevada de Santa Marta")
+            .col-md-12
+              p Debe llevar consigo la honestidad en la forma de actuar, el compromiso en los asuntos que se le encomienden, seriedad, respeto por los demás y ante todo el respeto y la tolerancia con las personas, no solo con los clientes sino también con su equipo de trabajo.
+
+          .row(titulo="Cabo de la Vela y Punta Gallinas")
+            .col-md-12
+              p Tener iniciativa, proponer soluciones a posibles conflictos, ser receptivo ante posibles oportunidades de mejora.       
+          .row(titulo="Cartagena de Indias")
+            .col-md-12
+              p Tener iniciativa, proponer soluciones a posibles conflictos, ser receptivo ante posibles oportunidades de mejora.       
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
