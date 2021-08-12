@@ -628,10 +628,89 @@
         figure(data-aos="flip-right")
           img(src="@/assets/curso/t1-m4.svg", alt="mapa de la región pacífica")
 
+    .h4.mb-4 Principales destinos turísticos en la región Pacífica
 
+    h4.titulo-cuarto  Cali
+    p.mb-4  Es la tercera ciudad más poblada de Colombia al suroeste de la capital, posee una gran variedad de clubes nocturnos, centros comerciales, culturales, restaurantes que desde hace unos años ha crecido en su variedad para todos los gustos, conocida también como la capital de la salsa del que ofrece una gran cantidad de lugares como en “Juanchito” zona con más clubes de salsa.
+    p.mb-5  En el año 2019 fue recibió el reconocimiento como la mejor ciudad cultural de Suramérica, además de ser el principal centro urbano del país, tiene actividades para todos los gustos, si de naturaleza se trata, en Cali está el Parque Nacional Natural Farallones de Cali, compuesto de una majestuosa cadena de montañas que hace parte de la Cordillera Occidental, separadas por los ríos Cauca y la cuenca del Pacífico, de aquí nacen aproximadamente 30 ríos que abastece el suroccidente colombiano, cabe destacar que posee una gran variedad de especies endémicas de aves.
+    p.mb-5  Dentro de los sitios más representativos, por tanto, más turísticos encontramos:
+    
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-4.mb-4.mb-lg-0
+        figure(data-aos="flip-right")
+          img.nW(src="@/assets/curso/t1-p6.jpg", alt="imagen decorativa")
+      .col-lg-4
+          ul.lista-ul
+            li 
+              i.fas.fa-check
+              | Museo del Oro Calima
+            li 
+              i.fas.fa-check
+              | Juanchito
+            li 
+              i.fas.fa-check
+              | Farallones de Cali
+            li 
+              i.fas.fa-check
+              | Cristo Rey
+            li 
+              i.fas.fa-check
+              | Cerro de las tres cruces
+            li 
+              i.fas.fa-check
+              | Monumento Sebastián de Belalcázar
+            li 
+              i.fas.fa-check
+              | La Ermita
+            li 
+              i.fas.fa-check
+              | Acuaparque de la Caña
+            li 
+              i.fas.fa-check
+              | Ecoparque del Río Pance
+            li 
+              i.fas.fa-check
+              | Parque Alameda Loma de la Cruz
 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p Cabe resaltar que en los últimos años también ha crecido <b>el número de extranjeros que llegan a Cali para hacer turismo de salud, tratamientos médicos, estéticos, dentales</b> ya que suele ser más económico que en sus lugares de origen, Cali atiende alrededor de 14.000 pacientes al año en este tipo de turismo.
 
+    p.mb-5  Algunos parques nacionales presentes en esta región del país son:
+    .row
+      .col-lg-4
+        figure.mb-5(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p7.jpg", alt="paisaje")
+        figure.mb-5(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p8.jpg", alt="Frailejones")
+      .col-lg-8
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Parque Nacional Natural Ensenada de Utría")
+            .col-md-12
+              p único en albergar gran variedad de ecosistemas entre el marino hasta el selvático, considerado el parque más diverso del mundo.
 
+          .row(titulo="Parque Nacional Natural Gorgona")
+            .col-md-12
+              p Encontramos arrecifes coralinos y bosque húmedo, en los años 60's existía la penitenciaría Gorgona que estuvo activa hasta los años 80' s, ahora es un lugar turístico para los visitantes.     
+          .row(titulo="Parque Nacional Natural Tatamá")
+            .col-md-12
+              p Ubicado en la cordillera Occidental con gran variedad de especies tanto en flora como en fauna, allí se encuentra el Páramo Tatamá, ubicado en los Departamentos del Valle del Cauca, Chocó y Risaralda.
+          .row(titulo="Parque Nacional Natural Sanquianga")
+            .col-md-12
+              p En su mayoría ecosistema Manglar donde es el 20 % del total pacífico en el país, es la base de alimentación y reproducción de especies marinas y de estuarios, también de anidación de aves.     
+          .row(titulo="Parque Nacional Natural de los Katíos")
+            .col-md-12
+              p Ubicado en la región del Darién y Urabá, tiene el título de Patrimonio Mundial Natural y Reserva de la Biosfera, actualmente se ubica allí la comunidad indígena Wounaan de Juin Phubuur y la comunidad Peranchito de la etnia Embera-Katio.
+          .row(titulo="Parque Nacional Natural Uramba Bahía Málaga")
+            .col-md-12
+              p Lugar del descubrimiento del Chelorchestia colombiensis, y lugar de avistamiento de ballenas jorobadas que escogen este lugar para dar a luz sus crías.      
+          .row(titulo="Santuario de Flora y Fauna Malpelo y el Jardín Botánico la Manigua")
+            .col-md-12
+              p Es una de las islas más visitadas en el país por científicos y turistas, en este lugar existen diferentes tipos de rocas ígneas.
+
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de la Región Pacífica:
+    SlyderC.mb-5(:datos="datosSlyder6")
 
 
 
@@ -876,6 +955,62 @@ export default {
         texto:
           'Situado en la cordillera de los Andes, cuenta con el árbol nacional del país, La Palma de Cera del Quindío, con gran diversidad de flora y fauna.',
         imagen: require('@/assets/curso/s5-i6.jpg'),
+      },
+    ],
+    datosSlyder6: [
+      {
+        titulo: 'Cristo Rey, Cali',
+        texto:
+          'Panorama lateral de la estatua de Cristo Rey, ubicada en el corregimiento de los andes en la ciudad de Cali, es de 40 metros de altura en el cerro de los cristales a 440 msnm.',
+        imagen: require('@/assets/curso/s6-i1.jpg'),
+      },
+      {
+        titulo: 'Cerro de las Tres Cruces, Cali',
+        texto:
+          'Un ambiente natural, para ejercitarse, que ofrece una buena vista de la ciudad de  Cali,  además de variadas alternativas de hidratación y alimentación.',
+        imagen: require('@/assets/curso/s6-i2.jpg'),
+      },
+      {
+        titulo: 'Iglesia la Ermita',
+        texto:
+          'Templo católico ubicado cerca al río Cali y dedicado a Nuestra Señora de la Soledad y al Señor de la Caña.',
+        imagen: require('@/assets/curso/s6-i3.jpg'),
+      },
+      {
+        titulo: 'Atardecer en la Isla de Gorgona',
+        texto:
+          'Ubicada al oeste de la costa del Pacífico, descubierta en 1.526 por Bartolomé Ruiz, inicialmente se llamó San Felipe, pero fue cambiado por Francisco Pizarro quien le dio el nombre de Gorgona.',
+        imagen: require('@/assets/curso/s6-i4.jpg'),
+      },
+      {
+        titulo: 'Popayán',
+        texto:
+          'Su nombre completo es Asunción de Popayán y es una de las ciudades más antiguas y mejor conservadas de toda américa, razón por la cual la Unesco en 2005 le otorgó el reconocimiento como ciudad Unesco de la gastronomía.',
+        imagen: require('@/assets/curso/s6-i5.jpg'),
+      },
+      {
+        titulo: 'Carnaval de Negros y Blancos, Pasto',
+        texto:
+          'El es la fiesta más grande e importante del sur de Colombia. Se celebra del 2 al 7 de enero de cada año. En el año 2000 fue declarado Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.',
+        imagen: require('@/assets/curso/s6-i6.jpg'),
+      },
+      {
+        titulo: 'Santuario de las Lajas, Ipiales',
+        texto:
+          'Reconocido en el mundo como uno de los templos más bellos, construcción de estilo neogótico, que se alza en un abismo, sobre el cañón del río Guáitara, atrae la vista de miles de colombianos y extranjeros que con frecuencia visitan el templo.',
+        imagen: require('@/assets/curso/s6-i7.jpg'),
+      },
+      {
+        titulo: 'Parque nacional natural Tatamá',
+        texto:
+          'Ubicado en la cordillera occidental, reserva conformada por un conjunto de montañas, colinas y valles de páramo, un refugio natural para muchas especies animales y vegetales.',
+        imagen: require('@/assets/curso/s6-i8.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional Natural Uramba Bahía Málaga',
+        texto:
+          'Ubicada en el municipio de Buenaventura, uno de los lugares más diversos del mundo, es conocida por recibir visita de las ballenas jorobadas para su reproducción.',
+        imagen: require('@/assets/curso/s6-i9.jpg'),
       },
     ],
   }),
