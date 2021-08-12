@@ -32,15 +32,70 @@
 
     #t_1_1.titulo-segundo
       h2 1.1  Sistema turístico
+    
+    p.mb-5  Muchos autores han querido expresar un concepto que refiere todos los componentes del sistema turístico, pero aún no se tiene un consenso claro al respecto.
+    .row.mb-5
+      .col-lg-7
+        p.mb-3  El sistema turístico es según la OMT (2019):
+        p.mb-3.text-bold  Es un conjunto de elementos interrelacionados entre sí que evolucionan dinámicamente. Las características de una comunidad local, los recursos humanos, naturales y culturales de un territorio se combinan formando la materia prima de la actividad turística. Todos los elementos se conectan y se entrelazan en el mercado turístico, y resulta en un desplazamiento del turista desde el lugar de residencia habitual hasta el destino elegido en un circuito que se retroalimenta
+        p Todo esto es válido, teniendo en cuenta que el turismo como elemento dinamizador de la economía moviliza recursos económicos, técnicos y humanos, entrelazando actividades y generando una gran logística que permite que alrededor de la actividad se beneficien muchos sectores y subsectores.
+      .col-lg-5
+        figure.mb-5(data-aos="fade-right")
+          img(src="@/assets/curso/t1-i2.jpg", alt="Cuadro informativo con los tipos de cliente")
+    p.mb-5  Se propone a continuación un esquema que identifica algunos de los actores que intervienen en el desarrollo del turismo, los mismos serán descritos posteriormente de manera independiente.
 
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        figcaption.customCaption <b>Figura</b> Sistema turístico
+        figure.mb-5(data-aos="fade-right")
+          img(src="@/assets/curso/t1-info2.svg", alt="Cuadro informativo sistema turístico")
+        figcaption Nota. *VyT: Viajes y Turismo; OTA: Online Travel Agencies, que traduce agencia de viajes virtuales.
+    
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-secundario.p-4(titulo="Oferta")
+        .row
+          .col-lg-2
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t3-ic1.svg", alt="icono decorativo")
+          .col-lg-10
+            .h4 Servicio
+            p El conjunto de actividades establecidas para satisfacer una necesidad, es intangible, por lo tanto, se percibe de manera diferente según cada persona, siendo una postura subjetiva.
+        
+      .tarjeta.color-secundario.p-4(titulo="Demanda")
+        .row
+          .col-lg-2
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t3-ic2.svg", alt="icono decorativo")
+          .col-lg-10
+            .h4 
+            p
 
+      .tarjeta.color-secundario.p-4(titulo="Intermediarios")
+        .row
+          .col-lg-2
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t3-ic2.svg", alt="icono decorativo")
+          .col-lg-10
+            .h4 
+            p
 
+      .tarjeta.color-secundario.p-4(titulo="Superestructura")
+        .row
+          .col-lg-2
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t3-ic2.svg", alt="icono decorativo")
+          .col-lg-10
+            .h4 
+            p
 
-
-
-
-
-
+      .tarjeta.color-secundario.p-4(titulo="infraestructura")
+        .row
+          .col-lg-2
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t3-ic2.svg", alt="icono decorativo")
+          .col-lg-10
+            .h4 
+            p
 
 
 
