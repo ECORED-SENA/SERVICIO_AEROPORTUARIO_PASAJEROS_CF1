@@ -1141,14 +1141,43 @@
           p Entre sus principales atractivos turísticos está la inolvidable Torre Eiffel en París, el Castillo de Neuschwanstein en Alemania, el Coliseo Romano en Roma, el Parlamento de Hungría en Budapest, La Gran Vía en Madrid, El Reloj Astronómico de Praga, Casa del Fauno en Pompeya y demás lugares que hacen del turismo en Europa el más apetecido por los turistas.
 
     p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente asiático:
-    
+    SlyderC.mb-5(:datos="datosSlyder11")     
 
 
+    h3.titulo-tercero Destinos turísticos más representativos de África
+    p.mb-5  En el siguiente cuadro se presentan las ciudades y/o atractivos turísticos más representativos del continente africano:
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-botones
+          table
+            thead.text-bold
+              tr
+                th Países
+                th Ciudades / atractivos turísticos
+            tbody
+              tr
+                td.text-bold Egipto
+                td El Cairo
+              tr
+                td.text-bold Marruecos
+                td Rabat
+              tr
+                td.text-bold Kenia
+                td Nairobi
 
+    .row.mb-5
+      .col-lg-7
+        p.mb-3 Es reconocido por su vestimenta colorida y su espectacular geografía, los safaris, animales salvajes y por ser cuna de la primera civilización del mundo (Egipto) es un continente lleno de magia para visitar, además es reconocido por ser el continente más caliente del mundo.
+        p.mb-3 A lo largo y ancho de su territorio se hablan más de 2.100 idiomas y es la casa de las personas más pequeñas del mundo, los pigmeos donde las mujeres pueden medir 1.33m y los hombres 1.45m.
+        p.mb-3  Como atractivos turísticos importantes se tienen Las Cataratas Victoria, El Monte Kilimanjaro, Madagascar. Se destaca por sus animales salvajes, los cuales se pueden observar en los famosos safaris propios de este sector, entre los animales más representativos están, el elefante africano, la jirafa, el guepardo, el cocodrilo del nilo, el gorila, leones marinos y demás.
 
+      .col-lg-5
+        figure(data-aos="fade-right")
+          img(src="@/assets/curso/t1-p16.png", alt="Elefantes africanos en espacio abierto")
 
-
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente africano:
+    SlyderC.mb-5(:datos="datosSlyder12")   
 
 
 
@@ -1684,6 +1713,88 @@ export default {
         texto:
           'Región bohemia, reconocida como una de la ciudades más hermosas del mundo, alberga buen parte de la historia de Europa, declarada por la Unesco como patrimonio de la humanidad en 1982. ',
         imagen: require('@/assets/curso/s10-i11.jpg'),
+      },
+    ],
+    datosSlyder11: [
+      {
+        titulo: 'Angkor Wat, Camboya',
+        texto:
+          'Uno de los sitios con un alto significado arqueológico, arquitectónico y artístico, se cataloga como uno de los templos hinduistas más importantes del sureste asiático, cuna del imperio Jemer.',
+        imagen: require('@/assets/curso/s11-i1.jpg'),
+      },
+      {
+        titulo: 'Dubái, Emiratos Árabes Unidos',
+        texto:
+          'Caracterizada por sus grandes y exuberantes rascacielos, una de las ciudades más grandes y famosas de Emiratos Árabes Unidos, su economía se basa en el turismo, la aviación, la propiedad inmobiliaria y servicios financieros.',
+        imagen: require('@/assets/curso/s11-i2.jpg'),
+      },
+      {
+        titulo: 'Singapur',
+        texto:
+          'Uno de los países más ricos del mundo; tras la independencia de Malasia en 1965 se convierte en un estado autónomo; es moderno, multicultural, posee tecnologías e infraestructuras comerciales avanzadas y de acceso al mercado mundial.',
+        imagen: require('@/assets/curso/s11-i3.jpg'),
+      },
+      {
+        titulo: 'La Gran Muralla China',
+        texto:
+          'Es la pared más larga y la arquitectura antigua más grande del mundo, con  más de 2.300 años. Declarada patrimonio de la humanidad por la Unesco en 1987, en 2007 fue elegida como una de las siete maravillas del mundo moderno.',
+        imagen: require('@/assets/curso/s11-i4.jpg'),
+      },
+      {
+        titulo: 'El Taj Mahal, India',
+        texto:
+          'Uno de los más bellos edificios del mundo, construido entre 1631 y 1653 bajo el mando de Shah Jahan para albergar la tumba de su esposa. En 1983, fue declarado patrimonio de la humanidad, y es una de las siete maravillas del mundo.',
+        imagen: require('@/assets/curso/s11-i5.jpg'),
+      },
+      {
+        titulo: 'Bangkok, Tailandia',
+        texto:
+          'Centro de la actividad política, comercial e industrial, su influencia en el arte, moda, educación y entretenimiento, le ha proporcionado a Bangkok el estatus de ciudad incluyente y moderna del sudeste asiático. ',
+        imagen: require('@/assets/curso/s11-i6.jpg'),
+      },
+      {
+        titulo: 'Kioto, Japón',
+        texto:
+          'Tiene el título de ser la ciudad más hermosa de Japón, centro religioso con alrededor de 1000 templos budistas majestuosos, posee monumentos emblemáticos, palacios imperiales y jardines excepcionales. ',
+        imagen: require('@/assets/curso/s11-i7.jpg'),
+      },
+    ],
+    datosSlyder12: [
+      {
+        titulo: 'Madagascar',
+        texto:
+          'Es una isla situada enfrente de Mozambique y el océano Índico, con una variedad de especies únicas en el mundo, como el lémur, camaleón pantera, fosa, aye-aye, rana tomate, entre muchos otros.',
+        imagen: require('@/assets/curso/s12-i1.jpg'),
+      },
+      {
+        titulo: 'El Monte Kilimanjaro, Tanzania',
+        texto:
+          'Es el más alto del continente africano, formado por tres volcanes inactivos, conocido popularmente como el techo de África, y por los famosos campos de hielo de su cumbre.',
+        imagen: require('@/assets/curso/s12-i2.jpg'),
+      },
+      {
+        titulo: 'Cataratas Victoria',
+        texto:
+          'Situadas entre Zambia y Zimbabue, constituyen  un salto de agua del río Zambeze. En 1989 la Unesco las incluyó en su lista de monumentos naturales. La cortina de agua más larga del mundo atrae a turistas de todo el planeta.',
+        imagen: require('@/assets/curso/s12-i3.jpg'),
+      },
+      {
+        titulo: 'El Cairo, Egipto',
+        texto:
+          'Ubicado en las riberas del río Nilo, los monumentos más conocidos son las famosas pirámides de Giza y la Esfinge, donde convergen la tradición islámica del país y los recuerdos de la milenaria era de los faraones.',
+        imagen: require('@/assets/curso/s12-i4.jpg'),
+      },
+      {
+        titulo: 'Desierto del Sahara',
+        texto:
+          'Es el desierto caliente más grande del mundo, abarca la mayor parte de África, es un escenario de dunas que pueden superar los 122 m de altura y de accidentes geográficos en continuo movimiento.',
+        imagen: require('@/assets/curso/s12-i5.jpg'),
+      },
+      {
+        titulo: 'Marruecos',
+        texto:
+          'Marruecos es un país islamico, con destacadas manifestaciones culturales e históricas; se caracteriza por un alto intercambio cultural e influencia de países de medio oriente. Su turismo va en ascenso al considerarse un lugar con un estilo muy propio, pintoresco y clásico. ',
+        imagen: require('@/assets/curso/s12-i6.jpg'),
       },
     ],
   }),
