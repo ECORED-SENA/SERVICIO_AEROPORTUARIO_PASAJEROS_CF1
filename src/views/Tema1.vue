@@ -851,7 +851,257 @@
         
 
     .h4 Principales destinos turísticos en la región Orinoquia
-    p.mb-5  En esta región encontramos gran¬des Parques Nacionales importantes para la biodiversidad colombiana, entre ellos tenemos:
+    p.mb-5  En esta región encontramos grandes Parques Nacionales importantes para la biodiversidad colombiana, entre ellos tenemos:
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure.mb-5(data-aos="flip-right")
+          img(src="@/assets/curso/t1-p9.png", alt="paisaje de rio")
+      .col-lg-6
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Parque nacional natural El Tuparro")
+            .col-md-12
+              p Santuario de aves, orquídeas, monos, serpientes y los espectaculares delfines rosados, también es el cementerio de la desaparecida tribu indígena de los maipures.
+          .row(titulo="Sierra de la Macarena")
+            .col-md-12
+              p Sistema de montañas en la cordillera de los Andes, donde se encuentran especies tan numerosas como lo son: los osos hormigueros, jaguares, pumas, venados etc., su principal atractivo es Caño Cristales.
+          .row(titulo="Parque nacional natural El Cocuy")
+            .col-md-12
+              p Está ubicado sobre la cordillera Oriental y además posee el glaciar más grande del país, una característica relevante es que solo en el parque cuenta con todos los pisos térmicos que hay dentro de todo el territorio colombiano. En el parque se encuentran especies como: cóndor de los andes, águila real, jaguar, tigrillo, venado de cola blanca, armadillos y osos de anteojos.
+          .row(titulo="Parque nacional natural Chingaza")
+            .col-md-12
+              p En su dimensión comprende los Departamentos de Cundinamarca y Meta, se cree que las especies de flora presentes en el parque sobrepasan a las 2000, según estudios realizados por expertos en este tipo de vegetación.
+    
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de la Región de la Orinoquía
+    SlyderC.mb-5(:datos="datosSlyder7")
+
+
+     //- reguin amazonia
+    h3.titulo-tercero Región de la Amazonía
+    .row
+      .col-lg-8
+        p.mb-4  Ubicada en el extremo sur del país, limita con Venezuela, Brasil, Perú y Ecuador y comprende el 40 % del territorio, mide 483119 km², lo que indica que la mayor superficie está en Colombia, también llamado el pulmón del mundo por ser considerada la zona forestal más extensa en el planeta y con ella toda la diversidad que trae consigo, tanto en especies de animales como de plantas, además posee el río más extenso del mundo, el río Amazonas. El turismo que más se realiza en esta zona es el ecológico, los turistas disfrutan mucho el contacto con la naturaleza y con las tribus indígenas presentes en esta zona del país.
+
+        .row.justify-content-center.mb-5
+          .col-lg-8
+            .tabla-a.color-acento-botones
+              table
+                thead
+                  tr
+                    th Departamento
+                    th Capital
+                tbody
+                  tr
+                    td Amazonas
+                    td Leticia
+                  tr
+                    td Caquetá
+                    td Florencia
+                  tr
+                    td Guainía
+                    td Puerto Inírida
+                  tr
+                    td Guaviare
+                    td San José del Guaviare
+                  tr
+                    td Putumayo
+                    td Mocoa
+                  tr
+                    td Vaupés
+                    td Mitú
+
+              
+      .col-lg-4
+        figure.mb-5(data-aos="flip-right")
+          img(src="@/assets/curso/t1-m6.png", alt="Mapa region Amazonía")
+
+    .h4.mb-5  Los principales atractivos turísticos en esta zona son
+    
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-4.mb-4.mb-lg-0
+        figure(data-aos="flip-right")
+          img.nW(src="@/assets/curso/t1-p10.png", alt="paisaje de rio")
+      .col-lg-4
+          ul.lista-ul
+            li 
+              i.fas.fa-check
+              | Parque nacional natural Cahuinarí
+            li 
+              i.fas.fa-check
+              | Parque nacional natural La Paya
+            li 
+              i.fas.fa-check
+              | Parque nacional natural Tinigua
+            li 
+              i.fas.fa-check
+              | Parque nacional natural Río Puré
+            li 
+              i.fas.fa-check
+              | Reserva nacional natural Nukak
+            li 
+              i.fas.fa-check
+              | Reserva nacional natural Puinawai
+            li 
+              i.fas.fa-check
+              | Parque nacional natural Alto Fragua Indi-Wasi
+            li 
+              i.fas.fa-check
+              | Parque nacional natural Serranía de los Churumbelos Auka-Wasi
+
+    .h4.mb-5  Los parques más emblemáticos de esta zona del país son:
+    TabsC.color-acento-botones.mb-5
+      .py-3.py-md-4(titulo="Parque nacional natural Amacayacu")
+        .row.justify-content-center.align-items-center
+          .col-lg-5
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t1-p11.png", alt="paisaje")
+          .col-lg-6
+            p Se encuentra en el llamado “trapecio amazónico que alberga especies como: el titi cabeza blanco, el guacamayo, el tucán, la nutria, y como animales endémicos el león rayado y el pez cuatro aletas. Las principales actividades incluyen, paseo por el río Amazonas, la isla de Los Micos, Isla de Mocagua, viaje río arriba del Río Tarapoto para la vista de los delfines rosados y grises de agua dulce.
+        
+      .py-3.py-md-4(titulo="Parque nacional natural Sierra de Chiribiquete")
+        .row.justify-content-center.align-items-center
+          .col-lg-5
+            figure(data-aos="fade-left")
+              img(src="@/assets/curso/t1-p11.png", alt="icono decorativo")
+          .col-lg-6
+            p Entre los departamentos Caquetá y Guaviare está el parque nacional natural más grande del país, dentro de su principal riqueza además de la flora y fauna que allí se encuentra, también está presente la arqueología con más de 36 abrigos rocosos donde se han encontrado más de 250.000 dibujos, que son el más importante hallazgo de pictografías rupestres, que datan de hace 19.510 años antes del presente según proyecciones de arqueólogos” (Aquae, s.f.). 
+
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de la Región de la Amazónica:
+    SlyderC.mb-5(:datos="datosSlyder8")
+
+    Separador
+    br
+    br
+    #t_1_4.titulo-segundo
+      h2  1.4  Geografía turística internacional
+    .row.mb-5
+      .col-lg-7
+        p El turismo internacional ha estado en los últimos años en continuo crecimiento por la diversificación que ofrece a los turistas en variedad de opciones para escoger, esto conlleva al dinamismo en la promoción y desarrollo de nuevos destinos turísticos lo cual es un motor importante para el progreso socioeconómico de las naciones, uno de los tipos de turismo que viene en auge es el de negocios y este lo convierte en un factor de consideración para el comercio internacional siendo así una de las fuente de ingreso considerable de países en desarrollo, esto va de la mano con la diversificación y competencia entre destinos.
+        .bloque-texto-b.color-secundario.p-4.mb-5
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            .h5.mb-0 En el año 2019, se registraron 1.500 millones de llegadas internacionales en todo el mundo, lo que equivale a la quinta parte de la población mundial<br>
+            span  - Según estadísticas de la OMT
+            i.fas.fa-quote-right
+        p Esto indica el crecimiento considerable del interés de las personas por explorar lugares desconocidos, culturas diferentes, y buscar nuevas experiencias. La tendencia de las generaciones actuales ha sido salir de su zona de confort y apostarle a experimentar emociones memorables, que los enriquecen como seres humanos y sociales.
+
+      .col-lg-5
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/t1-p12.png", alt="paisaje")
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p Por esta razón es muy común escuchar el término <b>“wanderlust”</b> entre los jóvenes, ya que este hace referencia al interés de las personas de no tener un motivo especial de viaje, más que el deseo mismo de viajar por pasión. Para esto se debe identificar los destinos de mayor demanda e interés para las personas, <b>conociendo de primera mano, ciudades importantes, tipo de moneda, atractivos turísticos, actividades de ocio, eventos especiales, gastronomía, tradiciones, entre otras.</b>
+    
+    h3.titulo-tercero Destinos turísticos más representativos de América
+    p.mb-5  En el siguiente cuadro se presentan las ciudades y/o atractivos turísticos más representativos del continente americano:
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Países
+                th Ciudades / atractivos turísticos
+            tbody
+              tr
+                td Estados Unidos
+                td Nueva York, Las Vegas, Miami, Orlando
+              tr
+                td México
+                td Cancún, Ciudad de México
+              tr
+                td Costa Rica
+                td San José
+              tr
+                td Brasil
+                td São Paulo, Rio de Janeiro
+              tr
+                td Argentina
+                td Buenos Aires, Patagonia
+              tr
+                td Chile
+                td Santiago de Chile, San Pedro de Atacama, Islas de Pascua
+              tr
+                td Perú
+                td Lima, Cuzco, Machu Picchu
+              tr
+                td Aruba y Curazao
+                td Antillas Holandesas en el caribe
+
+    .row.mb-5
+      .col-lg-7
+        p.mb-3  En América encontramos diversidad de destinos, todos con atractivos turísticos de alto impacto desde Estados Unidos la principal Metrópoli que todos quieren visitar, encontramos diversidad de ciudades que tienen atractivos particulares para disfrutar y conocer como es New York, conocida también como la Gran Manzana, importante por sus grandes centros de negocios, la Estatua de la Libertad, y diversos e importantes teatros, plazas, entre otros establecimientos; otro destino es Las Vegas, conocida como la ciudad del pecado, con actividad nocturna donde contrasta la diversión con la escenografía temática exclusiva en su infraestructura que la hace muy llamativa, por sus casinos. Sería imposible olvidar Miami que alberga a inmigrantes de América del Sur, central, cuba, Puerto Rico y otras comunidades, considerada la puerta al Caribe y Latinoamérica donde se habla casi en toda la ciudad el idioma español; otra ciudad emblemática es Orlando conocida como Downtown Orlando, donde se encuentran los parques temáticos, y también los complejos de <b>Walt Disney World Resort, Seaworld y Universal Orlando Resort, para el disfrute de chicos y grandes.</b>
+        p Sin duda alguna otro destino maravilloso es México, sitio mágico por su historia, rutas y gastronomía es uno de los destinos que los turistas prefieren para visitar por la calidez de su gente y sus zonas arqueológicas, territorio donde habitaron culturas prehispánicas de una gran importancia para la humanidad, en el estado de México se encuentra Teotihuacán y las Pirámides del Sol y la Luna, también están las grandes ciudades Mayas.
+      .col-lg-5
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/t1-p13.png", alt="turistas comprando sandía a vendedora con traje tipica")
+
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p Otros destinos igualmente fascinantes por visitar son los países de América del Sur con una amplia gama de destinos, lugares, cultura y ricos en historia, entre ellos Perú que posee grandes centros arqueológicos, el más representativo Machu Picchu, también se encuentra las ruinas de la ciudadela de Chan Chan y las líneas de Nazca.
+    
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente americano:      
+    SlyderC.mb-5(:datos="datosSlyder9")
+
+
+    h3.titulo-tercero Destinos turísticos más representativos de Europa
+    p.mb-5  En el siguiente cuadro se presentan las ciudades y/o atractivos turísticos más representativos del continente europeo:
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Países
+                th Ciudades / atractivos turísticos
+            tbody
+              tr
+                td España
+                td Barcelona, Bilbao, Madrid, Toledo, Sevilla, Córdoba
+              tr
+                td Francia
+                td Paris, Versalles, Monte Saint- Michel, Burdeos, Carcasona, Niza, Lyon   
+              tr
+                td Países Bajos
+                td Ámsterdam
+              tr
+                td Alemania
+                td Frankfurt, Colonia, Hamburgo, Berlín, Dresde, Múnich
+              tr
+                td Hungría
+                td Budapest
+              tr
+                td República Checa
+                td Praga
+              tr
+                td Austria
+                td Salzburgo, Viena
+              tr
+                td Italia
+                td Milan, Verona, Venecia, Florencia, Roma, Nápoles, Pompeya
+    .row.mb-5
+      .col-lg-7
+        p Europa, un continente de contrastes, llamado también el <b>“viejo continente”</b> por tener países milenarios y que han llevado su evolución y desarrollo de maneras distintas a través de los años, razón por la cual es un continente rico en idiomas, cultura, arquitectura, gastronomía con el contraste en sus grandes ciudades capitales de lo histórico y lo moderno al mismo tiempo. Viajar por Europa es un sueño, disfrutar de sus canales pluviales en las distintas ciudades como Ámsterdam, Venecia hacen de la estancia en Europa un viaje para recordar, en cuanto a la movilidad la facilidad que hay en los desplazamientos entre países, permite que visitar varios países en un viaje sea posible, <b>puede ser por avión, bus, carro, tren y todo está diseñado para comodidad del turista.</b>
+      .col-lg-5
+        figure(data-aos="fade-right")
+          img(src="@/assets/curso/t1-p14.png", alt="Torre eiffel de Paris")
+
+    .row.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p Entre sus principales atractivos turísticos está la inolvidable Torre Eiffel en París, el Castillo de Neuschwanstein en Alemania, el Coliseo Romano en Roma, el Parlamento de Hungría en Budapest, La Gran Vía en Madrid, El Reloj Astronómico de Praga, Casa del Fauno en Pompeya y demás lugares que hacen del turismo en Europa el más apetecido por los turistas.
+    
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente europeo:
+    
+
+
+
+
+
+
 
 
 
@@ -1178,6 +1428,138 @@ export default {
         texto:
           'Ubicada en el municipio de Buenaventura, uno de los lugares más diversos del mundo, es conocida por recibir visita de las ballenas jorobadas para su reproducción.',
         imagen: require('@/assets/curso/s6-i9.jpg'),
+      },
+    ],
+    datosSlyder7: [
+      {
+        titulo: 'Sierra de la Macarena',
+        texto:
+          'Una vista panorámica de los verdes cerros de la Sierra de la Macarena, donde se encuentra el río Caño Cristales.',
+        imagen: require('@/assets/curso/s7-i1.jpg'),
+      },
+      {
+        titulo: 'Caño Cristales',
+        texto:
+          'Ubicada en la Sierra de la Macarena, denominado “el río de los siete colores” ya que las plantas en el fondo del río cambian de color por su exposición al sol, con un efecto visual de colores amarillos, rojos, verdes. ',
+        imagen: require('@/assets/curso/s7-i2.jpg'),
+      },
+      {
+        titulo: 'Coleo, Llanos Orientales ',
+        texto:
+          'Es un deporte tradicional de la zona de los llanos orientales, llega a mediados del siglo XVI, consiste en derribar el toro jalándole la cola.',
+        imagen: require('@/assets/curso/s7-i3.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional Natural El Tuparro',
+        texto:
+          'Santuario de aves, orquídeas, monos, serpientes delfines rosados de agua dulce. También se encuentra el antiguo cementerio que perteneció a la nación indígena de los Maipures.',
+        imagen: require('@/assets/curso/s7-i4.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional Natural El Cocuy',
+        texto:
+          'Ubicado en el municipio de Boyacá; reserva hidrográfica, con paisajes extremos de contrastes únicos, su extensión es de 306.000 hectáreas.',
+        imagen: require('@/assets/curso/s7-i5.jpg'),
+      },
+      {
+        titulo: 'Parque nacional natural Chingaza',
+        texto:
+          'Ubicado en la región andina, entre los departamentos de Cundinamarca y Meta, considerado como un tesoro natural y cultural por la majestuosidad de sus montañas.',
+        imagen: require('@/assets/curso/s7-i6.jpg'),
+      },
+    ],
+    datosSlyder8: [
+      {
+        titulo: 'Leticia, Amazonas',
+        texto:
+          'Un lugar de gran atractivo para turistas que buscan un contacto extremo con la naturaleza y las culturas indígenas ancestrales, existe una enorme variedad de especies animales y vegetales.',
+        imagen: require('@/assets/curso/s8-i1.jpg'),
+      },
+      {
+        titulo: 'Río Guaporé o Iténez',
+        texto:
+          'Es un río presente en el Amazonas, sus aguas pasan por el parque nacional Noel Kempff Mercado en Bolivia, nace en la Serra Dos Parecis en Brasil, con una longitud de 1.210 km.',
+        imagen: require('@/assets/curso/s8-i2.jpg'),
+      },
+      {
+        titulo: 'Río Amazonas',
+        texto:
+          'Atraviesa Perú, Colombia y Brasil, el río más largo y caudaloso del mundo, posee lirios de agua gigantes, lo suficientemente fuertes como para sostener a un adulto.',
+        imagen: require('@/assets/curso/s8-i3.jpg'),
+      },
+      {
+        titulo: 'Parque Nacional Natural Chiribiquete',
+        texto:
+          'Ubicado en los Departamentos de Caquetá y Guaviare, es un sistema montañoso que se divide en partes: Macizo Norte, Macizo Central y las Mesas de Iguaje; el arte rupestre encontrado data de diferentes tiempos en la historia.',
+        imagen: require('@/assets/curso/s8-i4.jpg'),
+      },
+    ],
+    datosSlyder9: [
+      {
+        titulo: 'Nueva York, Estados Unidos',
+        texto:
+          'Es considerada la metrópoli más grande del mundo con la más alta población de los Estados Unidos y donde se encuentra los principales centros financieros, comerciales y culturales.',
+        imagen: require('@/assets/curso/s9-i1.jpg'),
+      },
+      {
+        titulo: 'Walt Disney World, Orlando',
+        texto:
+          'Complejo turístico reconocido en el mundo por sus parques temáticos, el parque Magic Kingdom es más famosos, cuenta con impresionantes atracciones mecánicas y acuáticas.',
+        imagen: require('@/assets/curso/s9-i2.jpg'),
+      },
+      {
+        titulo: 'Las Vegas, Estados Unidos',
+        texto:
+          'Uno de los principales destinos comerciales y vacacionales, reconocida por los grandes casinos, el juego, las apuestas y la extravagante vida nocturna. Denominada popularmente  como “la ciudad del pecado”',
+        imagen: require('@/assets/curso/s9-i3.jpg'),
+      },
+      {
+        titulo: 'Miami, Estados Unidos',
+        texto:
+          'Las playas hermosas, naturaleza, arte callejero, y vida nocturna, cautivan a los viajeros de todo el mundo.',
+        imagen: require('@/assets/curso/s9-i4.jpg'),
+      },
+      {
+        titulo: 'Chichén Itzá, Yucatán',
+        texto:
+          'Ciudad mexicana más famosa del mundo y la segunda zona arqueológica más visitada. es el lugar perfecto para conocer la cultura e historia maya. Patrimonio cultural de la humanidad en 1988.',
+        imagen: require('@/assets/curso/s9-i5.jpg'),
+      },
+      {
+        titulo: 'Teotihuacan, Ciudad de México',
+        texto:
+          'Complejo arqueológico declarado patrimonio cultural de la humanidad por la Unesco en 1987, se encuentran dos edificación denominadas pirámides del sol y de la luna.',
+        imagen: require('@/assets/curso/s9-i6.jpg'),
+      },
+      {
+        titulo: 'Machu Picchu, Perú',
+        texto:
+          'Ubicado en los andes peruanos, una de las 7 maravillas del mundo más visitadas por los turistas, la mayor obra arquitectónica de los Incas.',
+        imagen: require('@/assets/curso/s9-i8.jpg'),
+      },
+      {
+        titulo: 'Cataratas del Niágara, Canadá',
+        texto:
+          'Majestuosas caídas de agua aproximadamente de 51 metros de altura y un hermoso paisaje son una de las atracciones más importantes del mundo.',
+        imagen: require('@/assets/curso/s9-i7.jpg'),
+      },
+      {
+        titulo: 'São Paulo, Brasil',
+        texto:
+          'Centro financiero de Brasil, se encuentra entre las ciudades más pobladas del mundo, con numerosas instituciones culturales y una rica tradición arquitectónica.',
+        imagen: require('@/assets/curso/s9-i9.jpg'),
+      },
+      {
+        titulo: 'Cristo Redentor, Río de Janeiro',
+        texto:
+          'Estatua del Cristo Redentor conocida también como Cristo del Corcovado, una de las 7 maravillas del mundo moderno, tiene una altura de 30.1 metros.',
+        imagen: require('@/assets/curso/s9-i10.jpg'),
+      },
+      {
+        titulo: 'Las Cataratas del Iguazú',
+        texto:
+          'Patrimonio de la humanidad de la Unesco desde 1984 en su parte argentina y desde 1986, por su parte brasileña, la impresionante y majestuosa caída de agua alcanza hasta los 82 metros.',
+        imagen: require('@/assets/curso/s9-i11.jpg'),
       },
     ],
   }),
