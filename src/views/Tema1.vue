@@ -187,10 +187,10 @@
 
 
     #t_1_3.titulo-segundo
-      h2 1.3  Geografía turística    
-      figure.mb-5
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      h2 1.3  Geografía turística nacional    
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     h3.titulo-tercero Región Caribe
     .row
@@ -309,9 +309,96 @@
                   | Fiestas de la independencia y concurso nacional de belleza
 
 
-        p.mb-5  A continuación, se presentan algunos de los sitios turísticos más representativos de la región Caribe:
-          
+    p.mb-5  A continuación, se presentan algunos de los sitios turísticos más representativos de la región Caribe:
     SlyderC.mb-5(:datos="datosSlyder")
+
+
+    h3.titulo-tercero Región insular
+    p.mb-5  Conformada por maravillosos destinos como el Archipiélago de San Andrés, Providencia y Santa Catalina, Isla de Gorgona, Malpelo y Archipiélago de San Bernardo.
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure(data-aos="flip-left")
+          img(src="@/assets/curso/t1-m2.svg", alt="region insular mar caribe")
+      .col-lg-4
+        figure(data-aos="flip-left")
+          img(src="@/assets/curso/t1-m2-1.svg", alt="Region insular oceano pacífico")
+      .clearfix
+      .col-lg-8
+        figcaption Nota. <a href='https://tierracolombiana.org/region-insular-de-colombia/' target='_blank'>https://tierracolombiana.org/region-insular-de-colombia/</a>
+    
+    h3.titulo-tercero San Andrés, Providencia y Santa Catalina (islas del Caribe)
+    .row.mb-5
+      .col-lg-8
+        p.mb-3  Sin duda de las mejores playas del caribe, San Andrés Islas está ubicada en el caribe colombiano a unos 750 kilómetros del territorio norte del país, con un mar cristalino también llamado “el mar de los 7 colores” por sus diferentes tonalidades de verde y azul y algunos tonos lila. Esta isla tiene influencia de ingleses por los piratas que llegaron y se mezclaron con los raizales para dar lugar a una cultura de mucha riqueza, por esta razón es posible encontrar isleños hablando inglés, sin embargo, es importante señalar que también hablan español y su lengua nativa creole, que tiene mezcla de inglés isabelino, español y dialectos africanos.
+        p.mb-3  Está conformada por Bahías, Puntas, Cayos, Cayos del Norte, Cayos del Sur, con un clima cálido que va desde los 26 a los 34 grados, tiene una temporada seca entre los meses de diciembre y mayo y la temporada de lluvia que se da en los meses de junio a noviembre, principalmente en el mes de junio.
+        p Esta zona del país posee una gran variedad de fauna y flora, razón por la cual fue declarado en el año 2000 reserva mundial de la biosfera “Seaflower”.
+      .col-lg-4
+        figure(data-aos="flip-left")
+          img(src="@/assets/curso/t1-p1.png", alt="region insular mar caribe")
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-botones.mb-5 
+          table
+            thead
+              tr
+                th Sus principales atractivos turísticos son:
+                th Dentro de las actividades a realizar en San Andrés, se encuentran
+            tbody
+              tr
+                td 
+                  ul.lista-ul
+                    li 
+                      i.fas.fa-check
+                      | Casa Museo Isleña 
+                    li 
+                      i.fas.fa-check
+                      | Cocoplumbay
+                    li 
+                      i.fas.fa-check
+                      | La Piscinita
+                    li 
+                      i.fas.fa-check
+                      | El Hoyo Soplador
+                    li 
+                      i.fas.fa-check
+                      | El Blowing Hole
+                    li 
+                      i.fas.fa-check
+                      | Sound Bay
+                    li 
+                      i.fas.fa-check
+                      | Cueva Pirata Morgan
+                    li 
+                      i.fas.fa-check
+                      | Jhonny Cay
+
+                  td 
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-check
+                        | Snorkel
+                      li 
+                        i.fas.fa-check
+                        | Kitesurf
+                      li 
+                        i.fas.fa-check
+                        | Windsurf
+                      li 
+                        i.fas.fa-check
+                        | Jetski
+                      li 
+                        i.fas.fa-check
+                        | Buceo en arrecifes de coral
+                      li 
+                        i.fas.fa-check
+                        | Alquiler de coche para recorrer la isla
+
+
+
+    p.mb-5  A continuación, se presentan algunos de los sitios turísticos más representativos de la región Insular:
+    
+    SlyderC.mb-5(:datos="datosSlyder2")
 
     h2.titulo-tercero Región Andina
     .row.mb-5
@@ -712,10 +799,59 @@
     p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de la Región Pacífica:
     SlyderC.mb-5(:datos="datosSlyder6")
 
+    //- reguin orinoquia
+    h3.titulo-tercero Región Orinoquía
+    .row
+      .col-lg-8
+        p.mb-3  También llamada “Llanos Orientales” es muy importante no solo por ser el hábitat de 300 especies de aves en sus espléndidos bosques, sino también por ser el área de mayor reserva de petróleo y gas natural, otra característica relevante es la gran cantidad de ganado en diversas especies y su gastronomía.
+        p.mb-4 Por ser una zona rica en naturaleza, está subdivida de la siguiente manera:
+        .row.justify-content-center.mb-5
+          .col-lg-8
+            ul.lista-ul.mb-5
+              li 
+                i.fas.fa-check
+                | Piedemonte Llanero
+              li 
+                i.fas.fa-check
+                | Mesetas del Meta
+              li 
+                i.fas.fa-check
+                | Llanuras del Guaviare
+              li 
+                i.fas.fa-check
+                | Pantanos del Arauca
+              li 
+                i.fas.fa-check
+                | Serranía de la Macarena
 
+            .tabla-a.color-acento-botones.mb-5 
+              table
+                thead
+                  tr
+                    th Departamento
+                    th Capital
+                tbody
+                  tr
+                    td Arauca
+                    td Arauca
+                  tr
+                    td Casanare
+                    td Yopal
+                  tr
+                    td Meta
+                    td Villavicencio
+                  tr
+                    td Vichada
+                    td Puerto Carreño
 
+              
+      .col-lg-4
+        figure.mb-5(data-aos="flip-right")
+          img(src="@/assets/curso/t1-m5.png", alt="Mapa region orinoquía")
+        
 
-
+    .h4 Principales destinos turísticos en la región Orinoquia
+    p.mb-5  En esta región encontramos gran¬des Parques Nacionales importantes para la biodiversidad colombiana, entre ellos tenemos:
 
 
 
@@ -742,10 +878,10 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'San Andrés Isla',
+        titulo: 'Parque Nacional Natural Tayrona',
         texto:
-          'Es la más grande del Archipiélago de San Andrés, Providencia y Santa Catalina, su baile típico es el calypso con un toque africano que solo refleja la alegría de su gente.',
-        imagen: require('@/assets/curso/s2-i1.jpg'),
+          'Ubicado en la Sierra Nevada de Santa Marta, considerado como un santuario de la naturaleza por su diversidad en fauna y flora.',
+        imagen: require('@/assets/curso/s1-i1.jpg'),
       },
       {
         titulo: 'Aldea de los indios Kogui en las montañas de la Sierra Nevada',
@@ -800,6 +936,37 @@ export default {
         texto:
           'Reconocida por sus playas, su centro histórico y por la facilidad para el ecoturismo, es llamada también “La Perla de América” desde el siglo XVIII.',
         imagen: require('@/assets/curso/s1-i10.jpg'),
+      },
+    ],
+    datosSlyder2: [
+      {
+        titulo: 'San Andrés Isla',
+        texto:
+          'Es la más grande del Archipiélago de San Andrés, Providencia y Santa Catalina, su baile típico es el calypso con un toque africano que solo refleja la alegría de su gente.',
+        imagen: require('@/assets/curso/s2-i1.jpg'),
+      },
+      {
+        titulo: 'San Andrés, Providencia y Santa Catalina',
+        texto:
+          'Uno de los mejores destinos para pasar vacaciones tropicales, visitado por miles de turistas en busca de playas de arena blanca y atardeceres perfectos.',
+        imagen: require('@/assets/curso/s2-i2.jpg'),
+      },
+      {
+        titulo: 'El mar de los siete colores',
+        texto:
+          'Mar de los siete colores, el tono de sus aguas van desde el arenoso color de la playa, pasando por el turquesa y degradándose en un azul profundo (Cravero, 2020).',
+        imagen: require('@/assets/curso/s2-i3.jpg'),
+      },
+      {
+        titulo: 'Jhonny Cay',
+        texto:
+          'Es uno de los destinos más impresionantes de toda Colombia, un islote con playas y palmeras, con extraordinarios paisajes y gran riqueza cultural.',
+        imagen: require('@/assets/curso/s2-i4.jpg'),
+      },
+      {
+        titulo: 'Buceo en Arrecifes',
+        texto: 'Muchos turistas visitan San Andrés, para practicar buceo.',
+        imagen: require('@/assets/curso/s2-i5.jpg'),
       },
     ],
     datosSlyder3: [
