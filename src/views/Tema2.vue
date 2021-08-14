@@ -241,7 +241,12 @@
             .col-lg-11
               .h4 Normativa Turismo
               p Para ampliar la información de la normativa colombiana remítase a la página del Ministerio de Comercio Industria y Turismo, en el siguiente enlace:
-            
+              a.anexo.mb-4.mb-lg-0(href="https://www.mincit.gov.co/minturismo/normatividad-turismo" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p <b>Enlace web.</b> Aeronáutica Civil de Colombia con los principales códigos de ciudades y aeropuertos a nivel nacional para Colombia.  
+
 
     Separador
     br

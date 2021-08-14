@@ -140,7 +140,7 @@
           img(src="@/assets/curso/t1-i3.jpg", alt="Manos señalando un punto en el mapa mundial")
     .row.mb-5
       .col-lg-5
-        a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.aerocivil.gov.co/portal-ninos/transito-aereo/Paginas/alfabeto-aeronautico.aspx" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -177,7 +177,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
-        a.anexo.mb-4.mb-lg-0(href="#!" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/seguridad-aviacion-civil/lists/siglaoaciiataaeropuerto/allitems.aspx#InplviewHash6c0e2aa2-438d-49d0-a63c-08ba065fec9a=" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

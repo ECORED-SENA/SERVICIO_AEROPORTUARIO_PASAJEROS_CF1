@@ -25,6 +25,32 @@ export default {
         numero: '1',
         titulo: 'Generalidades del turismo y los viajes',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Sistema turístico',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Geografía turística',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Geografía turística nacional',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Geografía turística internacional',
+            hash: 't_1_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
@@ -32,6 +58,20 @@ export default {
         numero: '2',
         titulo: 'Normatividad de los viajes y del turismo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Ley 300 de 1996',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Ley 2068 de 2020',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -39,6 +79,20 @@ export default {
         numero: '3',
         titulo: 'Fundamentos del servicio en turismo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Manejo del servicio al cliente',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Cultura del servicio al cliente',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
