@@ -1149,7 +1149,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .tabla-a.color-acento-botones
+        .tabla-b.color-primario
           table
             thead.text-bold
               tr
@@ -1295,7 +1295,8 @@ export default {
       },
       {
         titulo: 'La Candelaria',
-        texto: '',
+        texto:
+          'Un lugar icónico del centro de Bogotá que reúne arquitectura, historia, cultura y gastronomía.',
         imagen: require('@/assets/curso/s3-i2.jpg'),
       },
       {
