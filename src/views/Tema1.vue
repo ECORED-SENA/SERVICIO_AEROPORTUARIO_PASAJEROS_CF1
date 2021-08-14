@@ -1097,13 +1097,51 @@
     p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente europeo:
     SlyderC.mb-5(:datos="datosSlyder10")    
 
+    h3.titulo-tercero Destinos turísticos más representativos de Asia
+    p.mb-5  En el siguiente cuadro se presentan las ciudades y/o atractivos turísticos más representativos del continente asiático:
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th Países
+                th Ciudades / atractivos turísticos
+            tbody
+              tr
+                td Emiratos Árabes
+                td Dubái
+              tr
+                td Indonesia
+                td Yakarta  
+              tr
+                td China
+                td Pekín
+              tr
+                td Japón
+                td Tokio
+              tr
+                td India
+                td Nueva Delhi
+              tr
+                td Tailandia
+                td Bangkok  
+    .row.mb-5
+      .col-lg-7
+        p.mb-3  Es el continente más poblado del planeta, ofrece al visitante múltiples tipos de turismo, por sus culturas milenarias ricas en costumbres, paisajes, idiomas, escritura, y comida exótica; es un continente de las ultramodernas ciudades y mucho lujo en algunos casos, pero ofrece oferta para todos los presupuestos y gustos.
+        p  Se encuentran ciudades de lujo como Singapur, que significa “la ciudad del león”; es una ciudad al sudeste asiático llena de dinamismo, con múltiples opciones culturales entre ellas el paseo por el río Singapur. Otra ciudad que se caracteriza por el exceso y los lujos es Dubái, es una sorprendente ciudad que ofrece todo tipo de actividades como safaris por el desierto y cenar a la luz de la luna, y visitar su maravillosa arquitectura como sus famosas mezquitas.
+      .col-lg-5
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/t1-p15.png", alt="Pagoda en Tokio")
 
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p Entre sus principales atractivos turísticos está la inolvidable Torre Eiffel en París, el Castillo de Neuschwanstein en Alemania, el Coliseo Romano en Roma, el Parlamento de Hungría en Budapest, La Gran Vía en Madrid, El Reloj Astronómico de Praga, Casa del Fauno en Pompeya y demás lugares que hacen del turismo en Europa el más apetecido por los turistas.
 
-
-
-
-
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente asiático:
+    
 
 
 
