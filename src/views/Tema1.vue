@@ -1095,7 +1095,7 @@
           p Entre sus principales atractivos turísticos está la inolvidable Torre Eiffel en París, el Castillo de Neuschwanstein en Alemania, el Coliseo Romano en Roma, el Parlamento de Hungría en Budapest, La Gran Vía en Madrid, El Reloj Astronómico de Praga, Casa del Fauno en Pompeya y demás lugares que hacen del turismo en Europa el más apetecido por los turistas.
     
     p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente europeo:
-    
+    SlyderC.mb-5(:datos="datosSlyder10")    
 
 
 
@@ -1560,6 +1560,92 @@ export default {
         texto:
           'Patrimonio de la humanidad de la Unesco desde 1984 en su parte argentina y desde 1986, por su parte brasileña, la impresionante y majestuosa caída de agua alcanza hasta los 82 metros.',
         imagen: require('@/assets/curso/s9-i11.jpg'),
+      },
+    ],
+    datosSlyder10: [
+      {
+        titulo: 'París, Francia',
+        texto:
+          'Emblemático y principal símbolo de París, construida en 1889, construcción de hierro de 300 metros de altura.',
+        imagen: require('@/assets/curso/s10-i1.jpg'),
+      },
+      {
+        titulo: 'Museo de Louvre, París',
+        texto:
+          'Localizado en el antiguo palacio Real de Louvre, uno de los museos más importantes del mundo donde alberga obras de arte de grandes expositores, cuenta con 60.500 metros cuadrados en galerías y alrededor de 445.000 piezas de arte.',
+        imagen: require('@/assets/curso/s10-i2.jpg'),
+      },
+      {
+        titulo: 'Budapest, Hungría',
+        texto:
+          'Capital y ciudad más poblada de Hungría, con un esplendoroso estilo urbano, su infraestructura arquitectónica del siglo XIX  se extienden por la orilla del Danubio.',
+        imagen: require('@/assets/curso/s10-i3.jpg'),
+      },
+      {
+        titulo: 'Parlamento húngaro, Budapest',
+        texto:
+          'Frente al río Danubio, es el centro legislativo del parlamento, de estilo gótico y ecléctico, fue construido entre 1885-1904 y desde 1987 es Patrimonio de la Humanidad de Unesco.',
+        imagen: require('@/assets/curso/s10-i4.jpg'),
+      },
+      {
+        titulo: 'Barcelona, España',
+        texto:
+          'Una de las ciudades más pobladas de España, con arquitectura modernista, y  un foco de nuevas tendencias en el mundo de la cultura, la moda y la gastronomía.',
+        imagen: require('@/assets/curso/s10-i5.jpg'),
+      },
+      {
+        titulo: 'Bilbao, España',
+        texto:
+          'Los puntos de referencia populares de Bilbao son el río Nervión, el puente de La Salve y el Museo Guggenheim de Bilbao. Este último es un museo de arte moderno y contemporáneo, uno de los museos más grandes de España.',
+        imagen: require('@/assets/curso/s10-i6.jpg'),
+      },
+      {
+        titulo: 'Castillo de Neuschwanstein, Alemania',
+        texto:
+          'Construcción majestuosa rodeada por un hermoso paisaje que inspiró a Walt Disney a la creación del castillo de la Bella Durmiente. Abierto al público desde 1886, recibe más de 1.4 millones de visitantes al año.',
+        imagen: require('@/assets/curso/s10-i8.jpg'),
+      },
+      {
+        titulo: 'Monte Saint- Michel, Francia',
+        texto:
+          'Es una pequeña isla rocosa en el estuario del río Couesnon, ubicada en la región de Normandía, en el noroeste de Francia. ',
+        imagen: require('@/assets/curso/s10-i7.jpg'),
+      },
+      {
+        titulo: 'Coliseo Romano, Italia',
+        texto:
+          'Una de las más grandes construcciones en el Imperio Romano, constituía una entretención para todo el público de la antigua Roma, con batallas de gladiadores, animales, un espectáculo con capacidad hasta de 50.000 espectadores.',
+        imagen: require('@/assets/curso/s10-i9.jpg'),
+      },
+      {
+        titulo: 'Venecia, Italia',
+        texto:
+          'Una ciudad mágica que parece flotar sobre las aguas del Adriático. Cuenta además con un rico patrimonio cultural y arquitectónico en el que destaca por encima de todo la Plaza de San Marcos.',
+        imagen: require('@/assets/curso/s10-i10.jpg'),
+      },
+      {
+        titulo: 'Basílica de San Pedro, Italia',
+        texto:
+          'Situada en el ciudad de Vaticano, uno de los lugares más sagrados para la religión católica, anualmente recibe personas de todo el mundo, Fue construida por Bernini a mediados del siglo XVII.',
+        imagen: require('@/assets/curso/s10-i11.jpg'),
+      },
+      {
+        titulo: 'Pompeya, Italia',
+        texto:
+          'Es uno de los yacimientos arqueológicos más famosos del mundo gracias a la conservación de los restos de la ciudad sepultada por la erupción volcánica del Vesubio en el año 79 d.C. patrimonio de la Unesco desde 1997.',
+        imagen: require('@/assets/curso/s10-i11.jpg'),
+      },
+      {
+        titulo: 'Ámsterdam, Países Bajos',
+        texto:
+          'Gran centro financiero y cultural, la ciudad se encuentra bajo el nivel del mar, se  mantiene a flote gracias a su sistema de canales y a los pilotes de madera que cimientan sus construcciones.',
+        imagen: require('@/assets/curso/s10-i11.jpg'),
+      },
+      {
+        titulo: 'Praga, República Checa',
+        texto:
+          'Región bohemia, reconocida como una de la ciudades más hermosas del mundo, alberga buen parte de la historia de Europa, declarada por la Unesco como patrimonio de la humanidad en 1982. ',
+        imagen: require('@/assets/curso/s10-i11.jpg'),
       },
     ],
   }),
