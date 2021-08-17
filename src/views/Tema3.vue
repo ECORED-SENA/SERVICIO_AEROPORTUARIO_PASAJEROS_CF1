@@ -54,6 +54,7 @@
             .h4 Clientes
             p Toda aquella persona que solicita un bien o servicio a un profesional o una compañía, es la razón de ser de las empresas, quienes centran su atención en poder generar vínculos de confianza y lealtad con los usuarios y así poder llegar a su fidelización creando relaciones de valor. Las compañías buscan diferentes estrategias de mercadeo para captar la atención de más clientes en un mundo donde cada vez la competencia es más exigente y donde el abanico de opciones es más amplio.
     
+    p.mb-5  Existen diferentes tipos de clientes, aquí los más comunes y sus características:
     .row.mb-5
       .col-lg-4
         .tarjeta.color-secundario.p-4.text-center.shadow-box

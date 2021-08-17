@@ -1697,19 +1697,19 @@ export default {
         titulo: 'Pompeya, Italia',
         texto:
           'Es uno de los yacimientos arqueológicos más famosos del mundo gracias a la conservación de los restos de la ciudad sepultada por la erupción volcánica del Vesubio en el año 79 d.C. patrimonio de la Unesco desde 1997.',
-        imagen: require('@/assets/curso/s10-i11.jpg'),
+        imagen: require('@/assets/curso/s10-i12.jpg'),
       },
       {
         titulo: 'Ámsterdam, Países Bajos',
         texto:
           'Gran centro financiero y cultural, la ciudad se encuentra bajo el nivel del mar, se  mantiene a flote gracias a su sistema de canales y a los pilotes de madera que cimientan sus construcciones.',
-        imagen: require('@/assets/curso/s10-i11.jpg'),
+        imagen: require('@/assets/curso/s10-i13.jpg'),
       },
       {
         titulo: 'Praga, República Checa',
         texto:
           'Región bohemia, reconocida como una de la ciudades más hermosas del mundo, alberga buen parte de la historia de Europa, declarada por la Unesco como patrimonio de la humanidad en 1982. ',
-        imagen: require('@/assets/curso/s10-i11.jpg'),
+        imagen: require('@/assets/curso/s10-i14.jpg'),
       },
     ],
     datosSlyder11: [
