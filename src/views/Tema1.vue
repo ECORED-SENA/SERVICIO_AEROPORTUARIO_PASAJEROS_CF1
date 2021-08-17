@@ -1149,7 +1149,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .tabla-b.color-primario
+        .tabla-a.color-acento-botones
           table
             thead.text-bold
               tr
