@@ -19,7 +19,7 @@
         
     .row.mb-5.justify-content-center
       .col-lg-10   
-        .cajon.color-acento-contenido.p-4(data-aos="fade-up", data-aos-delay='0')
+        .cajon.color-secundario.p-4(data-aos="fade-up", data-aos-delay='0')
           p Las compañías asociadas al transporte aéreo y en general al turismo tienen desafíos enormes relacionados con la digitalización del medio y nuevos modelos de negocio que sean llamativos tanto para el turista tradicional como para las nuevas generaciones, que buscan cada vez más, vivir nuevas experiencias, lo cual requiere inversión no solo a nivel tecnológico, sino también en el talento humano vinculado al turismo, ya que, lo que se es busca brindar las herramientas necesarias para ser un destino turístico de alto nivel y competitivo.
       
 

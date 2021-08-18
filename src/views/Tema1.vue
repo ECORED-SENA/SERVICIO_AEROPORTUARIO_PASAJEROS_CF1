@@ -37,7 +37,7 @@
     .row.mb-5
       .col-lg-7
         p.mb-3  El sistema turístico es según la OMT (2019):
-        p.mb-3.text-bold  Es un conjunto de elementos interrelacionados entre sí que evolucionan dinámicamente. Las características de una comunidad local, los recursos humanos, naturales y culturales de un territorio se combinan formando la materia prima de la actividad turística. Todos los elementos se conectan y se entrelazan en el mercado turístico, y resulta en un desplazamiento del turista desde el lugar de residencia habitual hasta el destino elegido en un circuito que se retroalimenta
+        p.mb-3.text-bold  Es un conjunto de elementos interrelacionados entre sí que evolucionan dinámicamente. Las características de una comunidad local, los recursos humanos, naturales y culturales de un territorio se combinan formando la materia prima de la actividad turística. Todos los elementos se conectan y se entrelazan en el mercado turístico, y resulta en un desplazamiento del turista desde el lugar de residencia habitual hasta el destino elegido en un circuito que se retroalimenta.
         p Todo esto es válido, teniendo en cuenta que el turismo como elemento dinamizador de la economía moviliza recursos económicos, técnicos y humanos, entrelazando actividades y generando una gran logística que permite que alrededor de la actividad se beneficien muchos sectores y subsectores.
       .col-lg-5
         figure.mb-5(data-aos="fade-right")
@@ -49,7 +49,7 @@
         figcaption.customCaption <b>Figura</b> Sistema turístico
         figure.mb-5(data-aos="fade-right")
           img(src="@/assets/curso/t1-info2.svg", alt="Cuadro informativo sistema turístico")
-        figcaption Nota. *VyT: Viajes y Turismo; OTA: Online Travel Agencies, que traduce agencia de viajes virtuales.
+        figcaption Nota. VyT: Viajes y Turismo; OTA: Online Travel Agencies, que traduce agencia de viajes virtuales.
     
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-secundario.p-4(titulo="Oferta")
@@ -99,13 +99,13 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p Agencia de viajes mayorista
+                p Agencia de viajes mayorista.
               li 
                 i.fas.fa-check
-                p Agencia de viajes operadora
+                p Agencia de viajes operadora.
               li 
                 i.fas.fa-check
-                p Agencia de viajes minorista o viajes y turismo            
+                p Agencia de viajes minorista o viajes y turismo.          
 
       .tarjeta.color-secundario.p-4(titulo="Superestructura")
         .row
@@ -155,26 +155,27 @@
         ul.lista-ul
           li 
             i.fas.fa-check
-            | Países
+            | Países.
           li 
             i.fas.fa-check
-            | Ciudades
+            | Ciudades.
           li 
             i.fas.fa-check
-            | Aeropuertos
+            | Aeropuertos.
           li 
             i.fas.fa-check
-            | Estados
+            | Estados.
           li 
             i.fas.fa-check
-            | Monedas
+            | Monedas.
           li 
             i.fas.fa-check
-            | Aerolíneas
+            | Aerolíneas.
           li 
             i.fas.fa-check
-            | Tipo de aeronaves
+            | Tipo de aeronaves.
 
+    p.mb-5  A continuación, encontrará un enlace de la Aeronáutica Civil de Colombia con los principales códigos de ciudades y aeropuertos a nivel nacional para Colombia:
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
         a.anexo.mb-4.mb-lg-0(href="https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/seguridad-aviacion-civil/lists/siglaoaciiataaeropuerto/allitems.aspx#InplviewHash6c0e2aa2-438d-49d0-a63c-08ba065fec9a=" target="_blank")
@@ -453,7 +454,7 @@
         figure(data-aos="flip-right")
           img(src="@/assets/curso/t1-m3.svg", alt="Mapa de region Andina de colombia")
 
-
+    p.mb-5  Principales destinos turísticos en la Región Andina:
     h3.titulo-tercero Bogotá
     p.mb-3  <b>Es la capital de Colombia, ubicada en el centro del país y es la tercera capital más alta del mundo después de Quito y La Paz</b> ya que se encuentra a 2.625 metros sobre el nivel del mar, Bogotá es la sede de los principales entes gubernamentales del país. Bogotá es el principal destino turístico en Colombia, ya que cuenta con diversas actividades, eventos culturales, eventos de nivel internacional, lugares de entretenimiento nocturno, parques, museos, centro histórico. Se ubica en la zona denominada “Sabana de Bogotá” donde se encuentran otros municipios de Cundinamarca que igualmente son muy visitados por los turistas por su variedad de atractivos.
     p.mb-5  <b>El turismo en la capital es muy diverso</b>, se encuentran lugares como:
@@ -540,6 +541,7 @@
     
     SlyderC.mb-5(:datos="datosSlyder3")
 
+    p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos de Medellín:  
     h3.titulo-tercero Medellín
     p.mb-3  <b>La ciudad de la eterna primavera es una ciudad moderna</b>, rica en actividades de todo tipo para los turistas, cuenta con diversidad cultural, con 22 museos, 6 parques bibliotecas y variadas zonas de oferta gastronómica que la hace muy llamativa para visitar. Cuenta con 2 aeropuertos, el primero es el Olaya Herrera ubicado dentro de la ciudad y segundo el aeropuerto internacional José María Córdova en el municipio de Rionegro a 50 minutos de Medellín.
     p.mb-5  <b>El turismo de salud es su principal eje</b>, esto según cifras del clúster de servicios de medicina y odontología de Medellín, que informa que esta modalidad de turismo viene en crecimiento en los últimos años, de pacientes extranjeros que optan por realizarse algún tratamiento médico u odontológico. Pero no solo el turismo de salud es atractivo en esta ciudad, hay variedad de eventos, festivales, y lugares para visitar, entre ellos:
@@ -775,7 +777,7 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Parque Nacional Natural Ensenada de Utría")
             .col-md-12
-              p único en albergar gran variedad de ecosistemas entre el marino hasta el selvático, considerado el parque más diverso del mundo.
+              p Único en albergar gran variedad de ecosistemas entre el marino hasta el selvático, considerado el parque más diverso del mundo.
 
           .row(titulo="Parque Nacional Natural Gorgona")
             .col-md-12
@@ -850,7 +852,7 @@
           img(src="@/assets/curso/t1-m5.png", alt="Mapa region orinoquía")
         
 
-    .h4 Principales destinos turísticos en la región Orinoquia
+    .h4 Principales destinos turísticos en la región Orinoquía
     p.mb-5  En esta región encontramos grandes Parques Nacionales importantes para la biodiversidad colombiana, entre ellos tenemos:
     .row.justify-content-center.mb-5
       .col-lg-4
@@ -860,7 +862,7 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Parque nacional natural El Tuparro")
             .col-md-12
-              p Santuario de aves, orquídeas, monos, serpientes y los espectaculares delfines rosados, también es el cementerio de la desaparecida tribu indígena de los maipures.
+              p Santuario de aves, orquídeas, monos, serpientes y los espectaculares delfines rosados, también es el cementerio de la desaparecida tribu indígena de los Maipures.
           .row(titulo="Sierra de la Macarena")
             .col-md-12
               p Sistema de montañas en la cordillera de los Andes, donde se encuentran especies tan numerosas como lo son: los osos hormigueros, jaguares, pumas, venados etc., su principal atractivo es Caño Cristales.
@@ -914,7 +916,7 @@
         figure.mb-5(data-aos="flip-right")
           img(src="@/assets/curso/t1-m6.png", alt="Mapa region Amazonía")
 
-    .h4.mb-5  Los principales atractivos turísticos en esta zona son
+    .h4.mb-5  Los principales atractivos turísticos en esta zona son:
     
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-4.mb-4.mb-lg-0
@@ -1138,7 +1140,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-secundario.p-4
-          p Entre sus principales atractivos turísticos está la inolvidable Torre Eiffel en París, el Castillo de Neuschwanstein en Alemania, el Coliseo Romano en Roma, el Parlamento de Hungría en Budapest, La Gran Vía en Madrid, El Reloj Astronómico de Praga, Casa del Fauno en Pompeya y demás lugares que hacen del turismo en Europa el más apetecido por los turistas.
+          p Otros destinos de cultura e historia son Tailandia y Camboya, en Tailandia se encuentran templos como el Ayutthaya, el Templo de Oro, Templo del Buda, Wat Phra That Doi Suthep. Por su parte, en Camboya se localiza Angkor Wat, una serie de templos en la antigua zona de la capital del imperio Jemer.
 
     p.mb-5  A continuación, se presentan algunos de los lugares turísticos más representativos del continente asiático:
     SlyderC.mb-5(:datos="datosSlyder11")     
@@ -1150,19 +1152,19 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .tabla-a.color-acento-botones
-          table
+          table.text-center.zebra
             thead.text-bold
               tr
                 th Países
                 th Ciudades / atractivos turísticos
             tbody
-              tr
+              tr.soft-gray
                 td.text-bold Egipto
                 td El Cairo
               tr
                 td.text-bold Marruecos
                 td Rabat
-              tr
+              tr.soft-gray
                 td.text-bold Kenia
                 td Nairobi
 
@@ -1554,7 +1556,7 @@ export default {
       {
         titulo: 'Parque Nacional Natural Chiribiquete',
         texto:
-          'Ubicado en los Departamentos de Caquetá y Guaviare, es un sistema montañoso que se divide en partes: Macizo Norte, Macizo Central y las Mesas de Iguaje; el arte rupestre encontrado data de diferentes tiempos en la historia.',
+          'Ubicado en los departamentos de Caquetá y Guaviare, es un sistema montañoso que se divide en partes: Macizo Norte, Macizo Central y las Mesas de Iguaje; el arte rupestre encontrado data de diferentes tiempos en la historia.',
         imagen: require('@/assets/curso/s8-i4.jpg'),
       },
     ],

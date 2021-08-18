@@ -65,12 +65,6 @@ export default {
             titulo: 'Ley 300 de 1996',
             hash: 't_2_1',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Ley 2068 de 2020',
-            hash: 't_2_2',
-          },
         ],
       },
       {

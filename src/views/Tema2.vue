@@ -87,7 +87,7 @@
     .titulo-quinto.color-acento-contenido
       h4 Ley 300 1996
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Formulación de la política")
+      .tarjeta.color-secundario.p-4(titulo="Formulación de la política")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -96,7 +96,7 @@
             .h4 Formulación de la política y planeación del turismo
             p El Ministerio de Desarrollo Económico formulará la política del Gobierno en materia turística y ejercerá las actividades de planeación en armonía con los intereses de las regiones y entidades territoriales.
         
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Apoyo a la descentralización")
+      .tarjeta.color-secundario.p-4(titulo="Apoyo a la descentralización")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -105,7 +105,7 @@
             .h4 Apoyo a la descentralización
             p El Ministerio de Desarrollo Económico apoyará la descentralización que en materia de turismo se ejerza de conformidad con los principios de coordinación, concurrencia y subsidiaridad. Para tal efecto se establecerán programas de asistencia técnica y asesoría a las entidades territoriales.
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Convenios institucionales")
+      .tarjeta.color-secundario.p-4(titulo="Convenios institucionales")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -117,7 +117,7 @@
     .titulo-quinto.color-acento-contenido
       h4 Ley 1101 de 2006
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Formulación de la política")
+      .tarjeta.color-secundario.p-4(titulo="Formulación de la política")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -126,7 +126,7 @@
             .h4 Formulación de la política y planeación del turismo
             p El Ministerio de Comercio, Industria y Turismo establece la política de turismo a través de Proexport para su promoción internacional, y con la entidad administradora del fondo de promoción turística para la promoción interna y la competitividad.
         
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Apoyo a la descentralización")
+      .tarjeta.color-secundario.p-4(titulo="Apoyo a la descentralización")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -135,7 +135,7 @@
             .h4 Apoyo a la descentralización
             p El Ministerio de Comercio, Industria y Turismo Económico apoyará la descentralización en materia de turismo. Para tal efecto se establecerán programas de asistencia técnica y asesoría a las entidades territoriales.
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Convenios institucionales")
+      .tarjeta.color-secundario.p-4(titulo="Convenios institucionales")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -168,7 +168,7 @@
                     li(data-aos="fade-up") 
                       i.fas.fa-check
                       | Dentro de la destinación general de los recursos, se tendrá en cuenta una asignación especial para el evento reinado de turismo.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Tasa compensada")
+      .tarjeta.color-secundario.p-4(titulo="Tasa compensada")
         .row
           .col-lg-2
             figure(data-aos="fade-left")
@@ -248,10 +248,8 @@
                   p <b>Enlace web.</b> Aeronáutica Civil de Colombia con los principales códigos de ciudades y aeropuertos a nivel nacional para Colombia.  
 
 
-    Separador
-    br
-    br
-    #t_2_2.titulo-segundo
+  
+    //--#t_2_2.titulo-segundo
       h2 2.2 Ley 2068 de 2020
 
 
