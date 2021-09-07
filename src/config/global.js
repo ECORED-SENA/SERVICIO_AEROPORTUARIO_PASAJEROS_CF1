@@ -234,24 +234,27 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Wilson Andrés Cuervo Nieto',
-        cargo: 'Instructor',
+        nombre: 'Claudia Ávila Ramírez',
+        cargo: 'Experta temática',
+        centro:
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Lida Guanumen Riaño',
+        cargo: 'Experta temática de apoyo',
+        centro:
+          'Centro Nacional de Hotelería Turismo y Alimentos - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Gustavo Santis Mancipe',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Uriel Darío González Montoya',
+        nombre: 'Sandra Patricia  Hoyos Sepúlveda',
         cargo: 'Revisión y corrección de estilo',
-        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica	Febrero de 2021',
       },
     ],
     desarrolloProducto: [
@@ -269,6 +272,47 @@ export default {
       {
         nombre: 'Jorge Armando Villamizar Moreno',
         cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Herrera Roldan',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
