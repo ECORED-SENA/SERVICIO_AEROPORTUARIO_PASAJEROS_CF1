@@ -77,11 +77,99 @@
       .col-lg-5
         figure(data-aos="fade-left")
           img(src="@/assets/curso/t2-i2.jpg", alt="mujer pagando compras con tarjeta de crédito")
+    
+    .titulo-quinto.color-acento-contenido
+      h4 Ley 300 1996
+    TabsC.color-acento-botones.mb-5
+      .py-3.py-md-4(titulo="Importancia de la industria turística")
+        .row.justify-content-center
+          .col-md-4.text-center
+            figure
+              img.nW(src='@/assets/curso/t2-k1.svg', alt='icono decorativo')
+          .col-md-6.mb-4.mb-md-0
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                p La industria turística es importante para el desarrollo del país y en especial de las diferentes entidades territoriales, regiones, provincias y que cumple una función social.
+              li
+                i.fas.fa-check
+                p Se le da mucha importancia al turismo interno o los residentes en el territorio económico del país, que viajan en el mismo país.           
+      .py-3.py-md-4(titulo="Principios generales en la industria turística")
+        .row.justify-content-center
+          .col-md-4.text-center
+            figure
+              img.nW(src='@/assets/curso/t2-k2.svg', alt='icono decorativo')
+          .col-md-6.mb-4.mb-md-0
+            ol.lista-ol
+              li  
+                p <b>1. Concertación:</b> acuerdos entre diferentes agentes para lograr objetivos comunes.
+              li
+                p <b>2. Coordinación:</b> se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.          
+              li
+                p <b>3. Protección al ambiente:</b>  en virtud del cual el turismo se desarrollará en armonía con el desarrollo sustentable del medio ambiente.   
+              li
+                p <b>4. Descentralización:</b>  la actividad turística se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.
+              li
+                p <b>5. Planeación:</b> las actividades turísticas se desarrollan de acuerdo con el plan sectorial de turismo.
+              li
+                p <b>6. Libertad de empresa:</b> el turismo es una industria de servicios de libre iniciativa privada, libre acceso y libre competencia.
+              li
+                p <b>7. Protección al consumidor:</b> será objeto de protección por parte de entidades públicas y privadas.
+              li
+                p <b>8. Fomento:</b> el Estado protegerá y otorgará prioridad al desarrollo integral de las actividades turísticas.
+              li
+                p <b>9. Desarrollo social:</b> el turismo es una industria que permite la recreación y el aprovechamiento del tiempo libre.
+
+      .py-3.py-md-4(titulo="Modificados por la Ley 1558 de 2012")
+        .row.justify-content-center
+          .col-md-4.text-center
+            figure
+              img.nW(src='@/assets/curso/t2-k3.svg', alt='icono decorativo')
+          .col-md-6.mb-4.mb-md-0
+            p.mb-3.text-bold  La modificación que realiza esta Ley consiste en adicionar 4 principios.
+            ol.lista-ol
+              li  
+                p <b>10. Calidad: </b> optimizar la calidad de los destinos y los servicios turísticos, con el fin de aumentar la competitividad.
+              li
+                p <b>11. Competitividad:</b> el desarrollo del turismo proporcione condiciones de mejora incrementando la demanda y fomentando la inversión de capital nacional y extranjero.     
+              li
+                p <b>12. Accesibilidad:</b> eliminación de barreras para el disfrute de la actividad turística a todos los sectores de la sociedad.
+              li
+                p <b>13. Facilitación: </b> organismos relacionados con la actividad turística, simplificarán los trámites y procesos que obstaculicen el desarrollo del turismo.
+
+      .py-3.py-md-4(titulo="Conformación del sector turismo")
+        .row.justify-content-center
+          .col-md-4.text-center
+            figure
+              img.nW(src='@/assets/curso/t2-k4.svg', alt='icono decorativo')
+          .col-md-6.mb-4.mb-md-0
+            p.mb-3.text-bold  Los sectores turísticos están conformados por el sector oficial, mixto y privado.
+            ol.lista-ol
+              li  
+                p <b>1. El sector oficial: </b> consejo superior de turismo, consejo de facilitación turística y el comité de capacitación turística.
+              li
+                p <b>2. El sector privado: </b> prestadores de servicios turísticos, sus asociaciones gremiales y las formas asociativas de promoción y desarrollo turístico.     
+              li
+                p 3. El subsector de la educación turística formal, en sus modalidades técnica, tecnológica y universitaria es considerada como soporte de desarrollo turístico y de su competitividad.
 
 
 
 
 
+    p.mb-5.text-bold  La Ley 300 de 1966, ha sufrido modificaciones para fortalecer y mejorar la actividad turística.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure(data-aos="flip-right")
+                img.nW(src="@/assets/curso/t2-p1.svg", alt="imagen decorativa")
+            .col-lg-8
+              .bloque-texto-a__texto.p-4(data-aos="flip-up")
+                p Es importante resaltar que la ley ha tenido dos reformas. La primera, mediante la Ley 1101 de 2006, cuyo fin ha sido la consecución de más recursos para la promoción y competitividad del sector, ampliando los sectores contribuyentes de la parafiscalidad y creando el impuesto al turismo. Y la segunda con la Ley 1558 de 2012 la cual tiene por objeto el fomento, el desarrollo, la promoción, la competitividad del sector y la regulación de la actividad turística.
+
+
+    p.mb-5  En el siguiente cuadro encontrará con más detalle las modificaciones que se realizaron a la Ley General de Turismo.
 
 
     .titulo-quinto.color-acento-contenido
