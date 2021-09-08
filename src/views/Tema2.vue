@@ -106,7 +106,7 @@
                   figure
                     img(src='@/assets/curso/t2-k2.svg', alt='icono decorativo')
                 .col-lg-10
-                  ol.lista-ol
+                  ol.lista-ol.lh-min
                     li  
                       p <b>1. Concertación:</b> acuerdos entre diferentes agentes para lograr objetivos comunes.
                     li
