@@ -96,46 +96,50 @@
                 p Se le da mucha importancia al turismo interno o los residentes en el territorio económico del país, que viajan en el mismo país.           
       .py-3.py-md-4(titulo="Principios generales en la industria turística")
         .row.justify-content-center
-          .col-md-4.text-center
+          //--.col-md-4.text-center
             figure
               img.nW(src='@/assets/curso/t2-k2.svg', alt='icono decorativo')
-          .col-md-6.mb-4.mb-md-0
-            ol.lista-ol
-              li  
-                p <b>1. Concertación:</b> acuerdos entre diferentes agentes para lograr objetivos comunes.
-              li
-                p <b>2. Coordinación:</b> se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.          
-              li
-                p <b>3. Protección al ambiente:</b>  en virtud del cual el turismo se desarrollará en armonía con el desarrollo sustentable del medio ambiente.   
-              li
-                p <b>4. Descentralización:</b>  la actividad turística se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.
-              li
-                p <b>5. Planeación:</b> las actividades turísticas se desarrollan de acuerdo con el plan sectorial de turismo.
-              li
-                p <b>6. Libertad de empresa:</b> el turismo es una industria de servicios de libre iniciativa privada, libre acceso y libre competencia.
-              li
-                p <b>7. Protección al consumidor:</b> será objeto de protección por parte de entidades públicas y privadas.
-              li
-                p <b>8. Fomento:</b> el Estado protegerá y otorgará prioridad al desarrollo integral de las actividades turísticas.
-              li
-                p <b>9. Desarrollo social:</b> el turismo es una industria que permite la recreación y el aprovechamiento del tiempo libre.
+          .col-md-8.mb-4.mb-md-0
+            .tarjeta.p-3.color-secundario
+              .row
+                .col-lg-2
+                  figure
+                    img(src='@/assets/curso/t2-k2.svg', alt='icono decorativo')
+                .col-lg-10
+                  ol.lista-ol
+                    li  
+                      p <b>1. Concertación:</b> acuerdos entre diferentes agentes para lograr objetivos comunes.
+                    li
+                      p <b>2. Coordinación:</b> se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.          
+                    li
+                      p <b>3. Protección al ambiente:</b>  en virtud del cual el turismo se desarrollará en armonía con el desarrollo sustentable del medio ambiente.   
+                    li
+                      p <b>4. Descentralización:</b>  la actividad turística se desarrolla por las empresas privadas y estatales, según sus respectivos ámbitos de acción.
+                    li
+                      p <b>5. Planeación:</b> las actividades turísticas se desarrollan de acuerdo con el plan sectorial de turismo.
+                    li
+                      p <b>6. Libertad de empresa:</b> el turismo es una industria de servicios de libre iniciativa privada, libre acceso y libre competencia.
+                    li
+                      p <b>7. Protección al consumidor:</b> será objeto de protección por parte de entidades públicas y privadas.
+                    li
+                      p <b>8. Fomento:</b> el Estado protegerá y otorgará prioridad al desarrollo integral de las actividades turísticas.
+                    li
+                      p <b>9. Desarrollo social:</b> el turismo es una industria que permite la recreación y el aprovechamiento del tiempo libre.
+          .col-md-4.mb-4.mb-md-0
+            .tarjeta.p-3.bg-soft-gray.h-100
+              .h4 Modificados por la Ley 1558 de 2012
+              p.mb-3.text-bold  La modificación que realiza esta Ley consiste en adicionar 4 principios.
+              ol.lista-ol
+                li  
+                  p <b>10. Calidad: </b> optimizar la calidad de los destinos y los servicios turísticos, con el fin de aumentar la competitividad.
+                li
+                  p <b>11. Competitividad:</b> el desarrollo del turismo proporcione condiciones de mejora incrementando la demanda y fomentando la inversión de capital nacional y extranjero.     
+                li
+                  p <b>12. Accesibilidad:</b> eliminación de barreras para el disfrute de la actividad turística a todos los sectores de la sociedad.
+                li
+                  p <b>13. Facilitación: </b> organismos relacionados con la actividad turística, simplificarán los trámites y procesos que obstaculicen el desarrollo del turismo.
 
-      .py-3.py-md-4(titulo="Modificados por la Ley 1558 de 2012")
-        .row.justify-content-center
-          .col-md-4.text-center
-            figure
-              img.nW(src='@/assets/curso/t2-k3.svg', alt='icono decorativo')
-          .col-md-6.mb-4.mb-md-0
-            p.mb-3.text-bold  La modificación que realiza esta Ley consiste en adicionar 4 principios.
-            ol.lista-ol
-              li  
-                p <b>10. Calidad: </b> optimizar la calidad de los destinos y los servicios turísticos, con el fin de aumentar la competitividad.
-              li
-                p <b>11. Competitividad:</b> el desarrollo del turismo proporcione condiciones de mejora incrementando la demanda y fomentando la inversión de capital nacional y extranjero.     
-              li
-                p <b>12. Accesibilidad:</b> eliminación de barreras para el disfrute de la actividad turística a todos los sectores de la sociedad.
-              li
-                p <b>13. Facilitación: </b> organismos relacionados con la actividad turística, simplificarán los trámites y procesos que obstaculicen el desarrollo del turismo.
+          
 
       .py-3.py-md-4(titulo="Conformación del sector turismo")
         .row.justify-content-center
@@ -333,7 +337,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> Aeronáutica Civil de Colombia con los principales códigos de ciudades y aeropuertos a nivel nacional para Colombia.  
+                  p <b>Enlace web.</b> https://www.mincit.gov.co/minturismo/normatividad-turismo  
 
 
   
