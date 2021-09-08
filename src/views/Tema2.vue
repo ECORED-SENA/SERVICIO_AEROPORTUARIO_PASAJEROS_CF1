@@ -150,7 +150,7 @@
               li
                 p <b>2. El sector privado: </b> prestadores de servicios turísticos, sus asociaciones gremiales y las formas asociativas de promoción y desarrollo turístico.     
               li
-                p 3. El subsector de la educación turística formal, en sus modalidades técnica, tecnológica y universitaria es considerada como soporte de desarrollo turístico y de su competitividad.
+                p <b>3. El subsector de la educación turística formal,</b> en sus modalidades técnica, tecnológica y universitaria es considerada como soporte de desarrollo turístico y de su competitividad.
 
 
 
