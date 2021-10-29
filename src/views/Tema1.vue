@@ -191,7 +191,7 @@
       h2 1.3  Geografía turística nacional    
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/aFrVO4hMymY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption  Para una mayor información del turismo en Colombia, dirigirse al material complementario y revise el video denominado “Esta es Colombia”.
 
     h3.titulo-tercero Región Caribe
