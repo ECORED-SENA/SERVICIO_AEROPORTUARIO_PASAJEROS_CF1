@@ -143,8 +143,6 @@ export default {
     {
       referencia:
         'Congreso de Colombia. (22 de noviembre de 2006). Ley 1101 de 2006. Por la cual se modifica la Ley 300 de 1996 - Ley General de Turismo y se dictan otras disposiciones',
-      link:
-        'http://www.armeniaculturayturismo.gov.co/adjuntos/leyes/626/ley1101de2006.pdf',
     },
     {
       referencia:

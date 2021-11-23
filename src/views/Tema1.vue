@@ -678,7 +678,7 @@
     h3.titulo-tercero Región Pacífica
     .row
       .col-lg-8
-        p.mb-3  Es la zona de una extraordinaria riqueza ecológica, hidrológica, minera y forestal, es la zona de mayor biodiversidad y pluviosidad en todo mundo, abarca la mayor parte del Departamento del Chocó, hogar de afrocolombianos a quienes los españoles en la conquista les llamaron “chocoes”, en esta parte del país el litoral coloca a Colombia frente océano más grande del mundo y con ello a conectar con el resto del mundo lo que promueve el desarrollo de esta región. Las subregiones que la componen son:
+        p.mb-3  Es la zona de una extraordinaria riqueza ecológica, hidrológica, minera y forestal, es la zona de mayor biodiversidad y pluviosidad en todo mundo, abarca la mayor parte del Departamento del Chocó, hogar de afrocolombianos a quienes los españoles en la conquista les llamaron “chocoes”, en esta parte del país el litoral coloca a Colombia frente al océano más grande del mundo y con ello a conectar con el resto del mundo lo que promueve el desarrollo de esta región. Las subregiones que la componen son:
         .row.justify-content-center
           .col-lg-10
             ul.lista-ul.mb-5
